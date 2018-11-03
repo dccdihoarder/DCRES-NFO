@@ -1,0 +1,90 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+--------------------------------------------------
+Resident Evil - Code: Veronica [NTSC-U] *REPACK 2*
+--------------------------------------------------
+Ripped: Nothing.
+Downsampled: Some videos, some audio (read notes).
+Source: GD dump.
+
+Good, here I am again with another repack, of course better than the last release.
+
+The voices in 44khz were downsampled to 32khz (same frequency of almost all voices in the game).
+and the audio of videos were also downsampled to 32khz (still stereo). With that, all audio of the
+game are now at 32khz. Most of them was 32khz already, so you won't be able to notice any
+difference.
+
+I've used a better video encoder this time, so the videos got better and smaller. Additionally,
+I had more space because of the audio. Only the opening video in first disc was downsampled, and
+in second disc, about 60% of the videos. Note that when I say downsampled, I mean re-encoded.
+Except for very dark scenes, the video quality difference between my videos and the original ones
+won't be noticeable.
+
+About performance, file order is more optimized than last time, and my last optimization techniques
+were used.
+
+Additionally, PAL 60hz patch for both discs are included in the pack. If you have a PAL console,
+apply the patch before burning to make the game boot in 60hz. Note that it also fixes the de-sync
+issues in animation that happens in 50hz. If you have a NTSC console, don't worry about that.
+
+I hope it's the last time I work in this game. I'm proud of my clever choices in this release, and
+I'm sure you'll like it either. Have fun.
+
+=====================
+ORIGINAL README FILE:
+=====================
+
+------------------------------------------------
+Resident Evil - Code: Veronica [NTSC-U] *REPACK*
+------------------------------------------------
+Ripped: Nothing.
+Downsampled: Some videos.
+Source: GD dump.
+
+This game is great and I knew I could release it with much better quality than last time. Now
+I downsampled videos myself, but I didn't have to downsample them all. In first disc, only
+opening video is downsampled. In second, around half of videos are downsampled. I let audio of
+videos untouched. Videos that were re-encoded, were made using VBR in the same bitrate as the
+original video, so quality is very close to the original. Making a short explanation: videos are
+great. Much better than my first release, and I'm sure that they're much better than the other
+releases around.
+
+I've used a custom file order based on GD original one, so you can expect great performance. This
+is the best release possible of this great game, so grab it while you can.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Dummied for 700mb CDs.
+- Used custom file order. It helps loading times and Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

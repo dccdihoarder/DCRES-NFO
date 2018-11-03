@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+---------------------------------
+Resident Evil 3: Nemesis (NTSC-U)
+---------------------------------
+Ripped: Nothing.
+Downsampled: Ambient sounds monoized; videos re-encoded.
+Source: Echelon's release (oRARs) and european GD dump.
+
+After finally getting the european GDI of this game, I spent a lot of time trying to make it work.
+Unfortunately I couldn't because this game has some kind of protection. Even the LBA 45000 trick
+didn't work. Well, so I got Echelon's release. Their release is of the american version, but
+fortunately the files are pratically the same of the european. So, using their release as base, I
+restaured the original media (stereo song and untouched video), and shrinking the AFS files space
+was enough.
+
+Well, the first problem appeared. In this game, loadings (the doors opening scenes) are made while
+ambient sound/music is playing. With the original media (stereo), the game was not able to stream
+data fast enough in the CD and sometimes music got annoying freezes during gameplay. Even moving
+the sound files to the end of the disc ("faster" area), streaming speed was not fast enough. The
+solution for that was monoizing the ambient sounds, so data rate for sounds got lower and streaming
+speed was enough. Everything got working fine and the first problem was solved. Note that only
+stereo ambient sounds were changed, other sounds got intact.
+
+Second problem was about the videos. Streaming speed for them was not enough because they were
+encoded in a very high bitrate. It means that videos got annoying short freezes while playing. So
+I used VBR and re-encoded them in the same bitrate. As their real frame rate was choppy,
+compression was very effective, solving the problem. Additionally, as source was encoded in a
+very high bitrate, re-encoding quality loss was minimal. I played them side by side, the original
+and the re-encoded videos and I couldn't notice any difference in quality. Note that sound of
+video got untouched. Also note that although the source used for the videos were files of the
+european version, they were originally 30fps, not 25fps as I expected, so nothing was lost.
+
+I have deleted some useless files too, including browser files (why were they there? This game does
+not have internet feature), added a nice dummy file and used a very optimized custom file order,
+based on the GD one. You'll get surprised with the loading times and with the lack of noise of
+Dreamcast reader while you play the game.
+
+This is another high quality release that I'm making for you, so be happy and hope that I don't
+lose my will to keep working on Dreamcast. Have fun.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files and Echelon's release oRARs.
+- Dummied for 700mb CDs. It means faster loading times.
+- Used custom file order based on GD's. It helps loading times and Dreamcast reader noise.
+- Better quality on media than other releases.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

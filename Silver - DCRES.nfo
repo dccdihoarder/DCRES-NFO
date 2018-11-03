@@ -1,0 +1,59 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+---------------
+Silver (NTSC-U)
+---------------
+Ripped: Nothing.
+Downsampled: 2 videos downsampled.
+Source: Kalisto's release (oRARs) and european GD dump.
+
+After a lot of work, I couldn't make european version pass of company's logo, so I got Kalisto's
+release. The american version has an extra code to check the region of the console, but
+fortunately Kalisto released a patch and I applied it, so it works fine on PAL and NTSC-J consoles
+now. Two videos had to be downsampled to make space for selfboot session, but bitrate
+got very high so I doubt you'll notice any difference.
+
+Before you complain, original videos have crap quality, it's not my fault. And videos also play
+strange, probably because they are encoded in 25 fps. But they were like that even on american
+version, so that's another thing that is not my fault. Oh, and I know that some texts are hard to
+read if you are not using a VGA-Box, but again, not my fault. Go complain with the company that
+ported this game.
+
+File order got optimized, so loadings must be faster now. Enjoy.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files and Kalisto's release oRARs.
+- Used custom file order based on GD's. It helps loading times and Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

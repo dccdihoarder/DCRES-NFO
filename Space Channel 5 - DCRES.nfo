@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+------------------------
+Space Channel 5 (NTSC-U)
+------------------------
+Ripped: Nothing.
+Downsampled: Background videos, voices (44khz mono -> 32khz mono), music and story videos sounds
+(44khz stereo -> 44khz mono).
+Source: GD dump and PS2 version of this game.
+
+This game was a hard one to complete. Videos are used as background, so game keeps streaming them
++ music + voices. My first try was using 32khz stereo music, but game couldn't stream everything
+on time, so videos got totally out of sync. So I had to use music as 44khz mono. I really wanted
+to keep music with a higher quality since it's a musical game, but that was the best I could do.
+It's the same thing that Kalisto did by the way. Note that file order was very optimized to make
+streaming during the game as easy as possible. However, some videos still can enter some
+miliseconds late. It's impossible to correct it because fetching files on CD-R is not as faster as
+in a GD (do you remember Soul Calibur music?). The good news is that won't mess with the gameplay,
+it's a very low detail that can be noticed only sometimes. Even original GD has a little delay in
+the start of the videos.
+
+In the first version I made of this game to release, I used original DC background videos. They
+had to be downsampled to make space and make streaming easier. However, I was not happy with the
+results. So I downloaded PS2 version. After some work to unpack the videos, I noticed that the
+background videos quality was much better than DC version's. I used them as source, encoding in
+VBR, and they got at least as good as the original DC ones. The light scenes got better for sure.
+Using PS2 videos was a great idea, and I'm sure you'll enjoy it too.
+
+About the downsampled voices, I couldn't notice any difference from original, even hearing them
+several times one after another.
+
+The result is a complete enjoyable gameplay, with nice music quality and nice video quality.
+Streaming should be better than Kalisto's release. Ah, and if you use VGA-Box and is taking breath
+to start blaming me for the video quality, I'd like to inform you that the original GD also got
+crap on VGA.
+
+Enjoy this strange and funny game. Chu chu!
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Very optimized file order to help streaming of files during the game.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

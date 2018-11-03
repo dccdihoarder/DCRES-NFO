@@ -1,0 +1,41 @@
+Sonic Adventure 2 (Single) [NTSC-U]
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+-------------------------------------------
+Ripped: Internet feature, japanese voices.
+Downsampled: Sound monoized (including video's), FMV downsampled.
+Source: GD dump and Echelon's release.
+
+As I promised, here is my single disc release of Sonic Adventure 2. It was much harder to do this than I thought (cost me one full day of work!), but at least the result got nice. It's much superior than Echelon's version, I hope you like it.
+
+I had my first problem when monoizing the sound. The music had something different on its header so Darkfalz's loop calculator found wrong loop data. It means that when repeating, music behaviour was terrible and took playing to the wrong place. After some research, I found no other tool capable of getting the loop samples that I needed. So after some more research I found a description about ADX header, so I could write my own tool to extract loop data. Fortunately, the data I took was correct, so music got perfect. First problem solved.
+
+Note that I used a high quality decoder, so monoized music has high quality. Echelon guys used a decoder that made low quality output with 32khz input (frequency of most songs of this game), so my release has better mono songs. Echelon guys also decided to keep some songs stereo (sacrificing video quality), but I monoized all. There were some Chao songs that were mono already, so I let them untouched.
+
+Hard part done? No. When I started working on videos I noticed another problem. Video had 2 audio streams: first one with japanese audio and second one with english audio. At first look there was no problem, but I had no idea of how multiplexing things back after downsampling. Dreamcast Movie Maker (that I used as multiplexer) was only capable of multiplexing one audio stream. After (some more!) research I found a rare tool. It was hidden among lots of posts on a forum and was made by a guy called Zench. He used a DLL of CRI's multiplexer and wrote a wrapper for it, so it could be used as a windows tool. Using that, I was able to multiplex video as it was, with two audio streams. Well, maybe you're asking why worrying about both streams if we only need english audio. The reason is simple: english was the second stream. Using only a stream made video play fine when japanese audio was selected, but made game freezes when english audio was selected. Well, after finally finding how to multiplex video, I replaced japanese audio with a 1 second crap quality sound and monoized english audio. Video was downsampled using VBR, so quality got very nice (much better than Echelon's release!).
+
+There were some videos used in effects of real time cutscenes in the game. Echelon had downsampled them, I kept them intact.
+
+The rest of work was a piece of cake, because I already had my optimized file order that I used in my split release.
+
+By the way, I used Echelon's binaries (the patched version, so game works until the end) in my release. This game had tons of protection checks (play the GDI in NullDC and check how often game check the LBA near 45000), and Echelon made an awesome job cracking them. Without them, this release would not be possible.
+
+If you want a version with full quality videos (no downsampling) and stereo sound, check my split release of Sonic Adventure 2. But if you're too lazy to change discs, this version is perfect for you. This is the best experience possible in one disc. Have fun.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump and Echelon's release.
+- Media with higher quality than other releases.
+- Used custom file order. It helps loading times and Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff, including wallpapers that were in CD part of GD.
+- Release comes with manual and covers.

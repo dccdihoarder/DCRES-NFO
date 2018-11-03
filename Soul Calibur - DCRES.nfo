@@ -1,0 +1,32 @@
+Soul Calibur (NTSC-U)
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Most music monoized (read below).
+Source: GD dump.
+
+Left and right channel of music are on separated files in this game. In CD-R, Dreamcast can't read the data fast enough so music plays with terrible pauses. That was the main failure on first releases of this game. Well, I thought that maybe if I force audio data to end of the disc (where Dreamcast reads faster) the game could stream data fast enough. Pauses got a little better, but they were still there, annoying as always. So I had to use a trick I read around on internet. Some smart person had the idea of changing references of right channel file to left channel. So game would play both channels using the same file. It means that streaming from the same file, reading speed would be enough. Pretty clever, right? The problem about this "fix", beside making music mono, is that people usually delete right channel references (deleting its files), and replace for left channel. It means that audio of left channel is played on both speakers. It's not a true mono process because you cut whole right channel away, what makes sound weird. For example, imagine a simple stereo sound of 20 seconds, with 2 drums. First drum plays 10 seconds, and its sound comes only on left speaker. Second drum plays the last 10 seconds, and its sound comes only on right speaker. Okay, now imagine that we use this "fix" process on this sound, making right speaker plays left speaker sound, and ripping right speaker data. Did we monoized the sound correctly? See, in first 10 seconds, you'll hear first drum on both speakers. In last 10 seconds, you'll hear a complete silence, because it was the sound of the second drum that played only on right channel, and we ripped it. So what I did in Soul Calibur? I used this "fix", but instead of keeping left channel file and deleting right channel, I remade the left channel. For that I reconstructed the stereo sound using both files, and used a real monoizing process. Quality of music must be better than other releases, because music has no right speaker data loss. And yes, it's still mono, too bad, but there was no way to keep it stereo. Last comment, this process was only made on the 16 bits sounds. The lower bitrate sounds were kept intact, with their references, what make them stereo. I didn't changed them because I imagined they could be streamed fast enough (lower bitrate), and well, I noticed no problem with that so I think I was right. In fact, there is a little, very little sound bug that might come from this. When you enter mission screen, the sound of menu popping up plays more than once. But it only happens when you enter mission screen, and it's not annoying anyway, so you'll have to live with that.
+
+After all this adventure with the music, game got pretty small. So I used the same process that gives you the quality you know: hacked binaries and burnt game with dummy file and correct file order. Well, this game had no VGA support, so I enabled it and the acessory is working fine now.
+
+This is the best Soul Calibur release floating around right? Enjoy.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Music plays correctly. Better quality than other releases.
+- Used same file order of the GD. It means faster loadings and less Dreamcast's reader noise.
+- Selfboot.
+- Dummied for 700mb. It means faster loadings.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

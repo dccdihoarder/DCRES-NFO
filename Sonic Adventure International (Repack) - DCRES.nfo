@@ -1,0 +1,177 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+-----------------------------------------------
+Sonic Adventure International *Repack* (NTSC-J)
+-----------------------------------------------
+Ripped: Webbrowser.
+Downsampled: Audio 44khz -> 32khz; videos.
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi images.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+=== ATTENTION: ===
+Two images will be created by the "unpack.bat":
+
+Sonic Adventure International (Repack) (English Speech) - DCRES.cdi
+Sonic Adventure International (Repack) (Japanese Speech) - DCRES.cdi
+
+Record the one with the speech you want, and select the proper option in the Options menu of the
+game, else you won't hear any voice.
+==================
+
+Finally I was able to release a single disc release of Sonic Adventure with stereo sound. There
+was a price  to pay though: japanese and english voices had to be separated in different discs and
+videos quality suffered considerably. They are slighty better in the English voices disc (I had
+extra ~5mb), but they got fine in both discs, and won't be a problem at all. I'm very proud of my
+trade-off choices in this game, and I'm pretty sure you'll like it too. Dude, sound is stereo!
+
+File order also has been more optimized.
+
+Oh, and people who keep bothering about japanese voices: they're clearly not exactly the same of
+english voices, so subtitles aren't the real translation. Blame the developers. So if you're not
+sure what to use, I recommend the English version (even being the adapted japanese content, voices
+and subtitles match), but it's your choice at the end.
+
+Even being a NTSC-J region game, it will work in any region console as usual and it will have 5
+languages for subtitles.
+
+PAL users, the game will show 50/60hz selector when booting on your consoles.
+
+Enjoy another nice DCRES work.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff. It also contains some wallpapers that
+were in the CD part of GD.
+- Release comes with manual (of original Sonic Adventure) and covers (low quality).
+
+=========================
+LAST RELEASE README FILE:
+=========================
+
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+--------------------------------------
+Sonic Adventure International (NTSC-J)
+--------------------------------------
+Ripped: Internet feature; 2 not used music tracks (read more below).
+Downsampled: Music and sound of videos monoized; videos downsampled (great quality, read more
+below).
+Source: GD dump.
+
+This is the final version of Sonic Adventure for Dreamcast. I read that Sonic Adventure was
+released under pressure to make it quick, so it came with a lot of glitches. This is a revised
+version that correct them, and changed some other things. As far as I played, I noticed changes in
+behaviour of first boss (Chaos 0), so there must be more changes in the game. Play it, find the
+changes and tell me later :)
+
+Note that although this is a japanese game, it has english voices and multi-language texts
+included. It even has 50/60hz selector for PAL users. Primary language is selected according to
+your bios configuration, but it can be changed in menu if you want.
+
+This release has high quality media. Starting with the music. It was monoized using a high quality
+decoder, so you hardly will notice any difference between this release and the original GD. I had
+some problems working with loop tracks, but fortunately I had the same problem with Sonic Adventure
+2 so I used the same program I made before and everything is working right now.
+
+After that, I decided to keep the japanese voices, so I had very few space for videos. I deleted
+web browser files, and ripped two tracks that are not played in the game (except in Sound Test).
+They'reincluded in "Extras" folder in the pack, so check them if you want. I was almost finishing
+thevideos when I got Sonic Adventure DX: Director's Cut for PC. I checked the files and found high
+quality videos, so I decided using them as source, what would make quality of my videos much
+higher. The only difference between this version videos and Dreamcast ones was logo in the
+introduction video, then I edited it and merged the logo of Dreamcast video with the Sonic
+Adventure DX, and it got perfect. You can't notice that the video was edited, even now that I told
+you. Note that all resizing process were made with high quality filters, and videos were stored
+using lossless codec. After having everything ready, I encoded them using VBR, what have a much
+better quality/size ratio. The results? High quality videos. I could say they got better than the
+original videos of Sonic Adventure, but instead, I will just challenge you to watch the videos and
+say if you think they were downsampled or not.
+
+Additionally, file order is the same of the original game (some optimizations were made later).
+
+High quality music, better quality videos, better loadings... enjoy one more fantastic release by
+DCRES!
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Music monoized with high quality.
+- Videos are better than in the original GD! Check them.
+- Used GD file order, it means faster loadings and less Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some extra (duh!) stuff, including the two tracks that were
+ripped and converted to MP3 and wallpapers included in the CD part of GD.
+- Release comes with manual (of american version).

@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+--------------------------------
+Spawn: In The Demon's Hand (PAL)
+--------------------------------
+Ripped: Nothing.
+Downsampled: Most videos (see notes).
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+Finally an easy release.
+
+All videos (except one) were encoded in a very high bitrate (9000+ kbit/s). There is no way it can
+be read on time on a CD, so they had to be downsampled to play right. Note that I still used a very
+high VBR bitrate, so quality loss is insignificant. If you think the videos are crap, you should
+know that the original ones look the same.
+
+VGA-Box support has been enabled and it's working fine.
+
+Performance has been improved a lot, so if you have ever played another release you should try this
+one ASAP.
+
+NTSC-U players, of course this PAL version will work fine on your consoles.
+
+PAL users, apply the included patch to make the game work in 60hz on your consoles, else it will
+boot in 50hz.
+
+Have fun.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

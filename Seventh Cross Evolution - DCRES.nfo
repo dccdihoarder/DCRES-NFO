@@ -1,0 +1,118 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+--------------------------------
+Seventh Cross Evolution (NTSC-U)
+--------------------------------
+Ripped: Nothing.
+Downsampled: Nothing.
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+This game was launched in Japan as just "Seventh Cross". It was very optimized, so if you have
+Kalisto's release grab this one now and see the difference.
+
+PAL users, this game will already boot in 60hz on your consoles.
+
+=== Read only if you're having trouble ===
+
+This game has only a few data files in its last session. Since I always dummy the games, the start
+of second session is very close to the end of the disc. Because of the reader's calibration, some
+consoles may have trouble recognizing this disc. It can be "fixed" removing the dummy CDDA track
+of the disc and
+remastering the disc. Here I teach you how to do it. Remember: if you console is recognizing your
+disc well, you don't have to worry about it.
+
+You must be confortable using Echelon's selfboot method to make it right. Tools needed (not
+included in the pack): cdrecord, mkisofs, binhack, ipins. Optional: CDRWin, cdirip.
+
+1) Extract the CDDA tracks, either using cdirip on the .cdi image or using your favorite program
+on your already recorded disc.
+NOTE: track01 and track17 are data tracks, so you have to extract track02~track16.
+2) Make a copy of track02.wav and rename it to track01.wav. Now you should have track01.wav,
+track02.wav, (...), track16.wav in this directory.
+3) Record the tracks as told in Echelon's tutorial. You can use "cdrecord -dev=a,b,c -multi -audio
+-pad track01.wav track02.wav (...) track16.wav -speed=x" where a,b,c is the number corresponding
+to your recorder (use "cdrecord -scanbus" to find out) and x is the recording speed. Also, you can
+use CDRWin: Record Disc -> Load Tracks -> Add. Add all the 12 wav files and order them, click OK.
+Mark "Open New Session", select the recorder, the speed and then click "Record Disc".
+4) I'll assume the toolkit of the Echelon's method (that has the tools I mentioned earlier) is in
+"c:\selfboot". Create the directory "c:\selfboot\data" and copy the files of the game (extracted
+of your already copied disc) to there. Copy both files of the "Remastering" directory of the pack
+(ip.bin, seventh.txt) to "c:\selfboot".
+5) Use "cdrecord -dev=a,b,c -msinfo" and it will show you a number. I'll refeer it now on as
+"0,Y".
+6) Now move "1ST_READ.BIN" of the "c:\selfboot\data" directory to "c:\selfboot".
+7) Execute "binhack.exe" and it will ask for data. Type "1st_read.bin" for first question,
+"ip.bin" for second, and "Y" (your -msinfo number without the 0,) for third.
+8) Move "1ST_READ.BIN" back to the "c:\selfboot\data" directory.
+9) Create a file of something like 100~200mb using a dummy file creator (or just use a random file
+of your computer). Rename it to DUMMY.DAT and copy it to "c:\selfboot\data".
+NOTE: Videos of this game were encoded in a very high bitrate. This dummy file will push the video
+files to the end of the disc (where Dreamcast reads faster), so they won't play skipping. You can
+skip this step, but videos might play buggy.
+9) Use "mkisofs.exe -C 0,Y -sort seventh.txt -l -o data.iso data", replacing the Y number of
+course. It will create the file data.iso.
+10) Execute "ipins.exe", then type "ip.bin" for first line and "data.iso" for the second one.
+11) Burn the final session using "cdrecord -dev=a,b,c -xa1 data.iso -speed=x", replacing a,b,c and
+x of course.
+12) It's ready to play.
+
+Note that will remove by complete the reading optimization. It will work though.
+
+I think only a few people (if any) will need to remaster this disc, however, if a considerable
+number of people has problem with this, I can remaster the disc and put it to download too, just
+let me know.
+
+=== End of trouble section ===
+
+Have fun with this strange/original game.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

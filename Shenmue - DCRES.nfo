@@ -1,0 +1,71 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+----------------
+Shenmue (NTSC-U)
+----------------
+Ripped: Nothing.
+Downsampled: Nothing in game discs; videos were downsampled in the Passport disc.
+Source: GD dump.
+
+Note for first time Shenmue players: Disc 1, 2 and 3 are game discs, and work exactly like any
+other multi-disk game. Well, almost, just don't forget to accept the save prompt in transition
+of discs. Disc 4 is an extra disc called Passport. You don't really have to burn this disc, but
+it's cool because there are nice extra stuff.
+
+There were tons of AFS files in the discs, and shrinking them gave me around 50mb of free space
+per disc. Because of that, nothing had to be downsampled in game discs. Note that CDDA tracks are
+included in all discs (although I think they're only played on Disc 3 and Passport). File order
+was already optimized in game discs, so I used it. File order was not optimized in Passport, but I
+used the original one as base and optimized it a bit. I had tons of problems hacking Passport.
+First problem was the short CDDA tracks of opening that were playing wrong. I could solve it using
+another program to hack CDDA. But the worst problem was that the game was freezing when playing a 
+movie, and I couldn't solve it. Then I got a release of the "Perfect Series" made by some cool 
+guy(s), and comparing with the PAL GD dump (their release is the PAL one) I could finally find out
+how to hack the game properly. So whoever worked on the "Perfect Series" Shenmue release: thank
+you. In Passport disc, space was really short, even shrinking AFS files, so movies had to be
+downsampled. I made around 230mb of movies fit on around 50mb, so don't blame me if it got crappy.
+I used VBR in video and downsampled sound too, so the movies have the best quality they could have.
+
+Enjoy this masterpiece with the best quality possible.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- NTSC-U version.
+- Includes CDDA.
+- Passport disc included.
+- Dummied for 700mb CDs (except Passport that filled the whole disc), it means faster loading times.
+- Used GD file order in game (already optimized), and custom file order on Passport. It helps 
+loading times and Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff. Note that every disc has a different
+"warning" track spoken by a dubber of the game, so you should check it.
+- Release comes with manual and covers.

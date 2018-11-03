@@ -1,0 +1,44 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+-----------------------------
+Soul Calibur - PAL 60hz Patch
+-----------------------------
+
+PAL users, apply the patch before burning if you want the game to work in 60hz instead of 50hz.
+This patch is useless for NTSC users.
+
+Usage:
+Apply the patch in the original image of the DCRES release. Using an image made of a recorded CD
+won't work.
+You maybe would like to mark the "Do not create backup" since the patcher will check the file hash
+before modifying it.
