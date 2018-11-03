@@ -1,0 +1,139 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+--------------------------------
+Headhunter (PAL) *Split release*
+--------------------------------
+Ripped: Nothing.
+Downsampled: Nothing.
+Source: GD dump.
+
+========
+WARNING:
+========
+This is a split release. Follow the instructions below or your game will freeze when it plays a
+video.
+
+======================
+DISC SWAP INFORMATION:
+======================
+- Disc 1-1: First disc. When you get your first LEILA license (C) and get your equipament in the
+locker, you'll go back to North District. In this time, save the game and load it on Disc 1-2.
+- Disc 1-2: Play until normal disc transition.
+- Disc 2-1: This is the first part of Disc 2. When you end the duel with Hawk in sewers, go up
+the stairs to Biotech and save your game in THIS MAP (not sewers). Load it in Disc 2-2.
+- Disc 2-2: Last disc, play until the end.
+
+===============================================
+Reading everything below this point is optional
+===============================================
+
+I've spent so many weeks and so many CD-R on this game trying to make a single disc version. I got
+PS2 version, so I could get higher quality videos to use as source. It was a hell to extract them
+(they were all together on a single file), and then another hell to decode them, because the video
+was not in full MPEG-2 standard (I think). I was having bad sync issues with a lot of programs,
+but at the end I finally could have the MPEG-2 sources decoded correctly. It was another hell to
+encode them, because I was using a newer version of the 4XM encoder that I found somewhere, and
+depending on the parameters used the videos they were simply not playing on Dreamcast. To make it
+better, the encoder was incredible slow, giving me the rate of 1~3fps. To make it even better, the
+batch encoding was pretty buggy. Well, after a lot of time and work, I was almost giving up when I
+put my hands on the same encoder used for the game makers. Everything was working sweet now, but
+this encoder version had no batch encoding support at all so I had to make a script for an
+automating software only to make it work.
+
+Why the split version then, if everything was working fine? Well, I was not happy with the
+results. To have space for the videos, I had to reduce framerate to 23.976, and it made videos a
+little choppy. I also had to reduce resolution of videos, and Dreamcast player could made them
+full screen nice, but its internal resizer was not making a good job and the videos got a bit
+strange. Additionally, the PS2 sources had macroblock problems in dark areas that got really
+apparent (and annoying) after compressing in 4XM. I considered using original Dreamcast sources,
+but the result would get even worse, because 4XM gives a bad effect in transition of scenes and it
+would be "doubled" by encoding the videos again. Well, what changed my mind at all was watching
+the movies and seeing that the encoder made sound really crappy. It encoded it in ADPCM, and it
+got really strange. To correct that I'd have to encode only video and insert sound later, but it
+would require me to calculate the bitrates and encode everything again. Remember, 1~3fps...
+Additionally, the result would be even worse, because using PCM audio would use more space and I'd
+have to reduce video bitrate even more.
+
+Headhunter is a great game, right? I didn't want to release this game with bad quality. So the
+best thing I thought was making this split release. I won't say a release in 2 discs will never be
+make for me. I kept all the information and files used on it and put the project on hold. However,
+since split release results got so good, I'd say it will probably never be done.
+
+Before talking about the split release, I'd like to thank Override for all his help with 4XM. This
+guy was really helpful with information, programs and scripts.
+Well, about this split release, it was easy right? Not really. First problem was arranging the
+files on the disc. A bad file distribution made videos lock because reading speed was not fast
+enough, or videos start late and desync with the subtitles. I had even never-ending loading times
+because the game had to play a music and load files elsewhere. The game was played entirely, and
+file order was optimized to make everything work great. It was days of work until find the right
+"combination" so the game worked fine. There were only two loading times in Disc 1 that got a
+little worse because music starts playing before end of loading, but it's a little price to pay
+for the general improvements.
+
+Additionally, for some reason the game kept verifying the start of session of the disc some times,
+moving reader unnecessarily and making loading times slower. To solve this "problem", I used two
+data sessions in disc, so I could move the start of second session to the end of the disc. Now it
+won't waste time moving reader to inner part of the disc.
+
+The final result is that with moving second session plus files optimization, loadings got
+extremely fast. If you compare this with any other release floating around, you'll notice a great
+improvement. Additionally, no media files were downsampled, so you'll have the great soundtrack of
+this game in 44khz stereo (for comparation, LAILLAS release had its music downsampled to 22khz
+mono) and untouched video. Now you can enjoy this masterpiece with GD quality and optimizated
+performance. Believe me, if you play using VGA Box + a good sound system it will make a huge
+difference.
+
+I played the game until the end twice and everything is working fine, so you can grab it without
+worries.
+
+Oh, someone told me that some jackass is taking my work and the work of other guys and claiming
+its his work. Because of that I've inserted a little DCRES logo in the SEGA screen when booting
+the game. I was trying to avoid it to keep the games closer to the original, but whatever. Thanks
+for cOcO! for the suggestion.
+
+Enjoy!
+
+Features of my release:
+- Nothing ripped or downsampled! Videos and music with GD quality.
+- Not corrupted files at all, it was made with GD dump files.
+- Used a custom technique to make loading times faster.
+- Dummied for 700mb CDs. It means faster loading times.
+- Used custom optimized file order. It means faster loadings and less Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

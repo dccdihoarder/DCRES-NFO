@@ -1,0 +1,61 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+---------
+Half-Life
+---------
+Ripped: Nothing.
+Downsampled: According to MUDS readme, audio was downsampled. I can't be sure what was done though.
+Source: MUDS release (oRARs).
+
+This is the leaked unreleased Half-Life for Dreamcast, as most of you know. A very annoying thing
+on this game is the loading times, that appears all the time. I made my best to make them faster.
+For that, I added a nice dummy file (around 210mb) and optimized file order the best I could. Of
+course I can't make miracles, like making it load as fast as in the PC version, but loading times
+got much better and the game is now more enjoyable. I doubt there is anything else to do about
+this version.
+
+Just a note, if you want to play only Blue Shift, Mr. Override has released a version only with
+its files, so loadings are probably slighty faster than this one. I can't be sure though, I haven't
+tested his release, but I'm just commenting in case you want to try it.
+
+The game has the original Half-Life game and the expansion Blue Shift. Saving is fully working,
+but files have variable size and are big, so I recommend you using a dedicated VMU. There are
+some slowdowns around the game, but in general, it's a good port that deserves a try.
+
+Features of my release:
+- Includes all the content, it's not a ripped release.
+- Saving fully working. You're encouraged to use a dedicated VMU.
+- Dummied for 700mb CDs. It means faster loading times.
+- Used custom file order, it means faster loadings and less Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Pack comes with a custom cover set that I found on Internet.

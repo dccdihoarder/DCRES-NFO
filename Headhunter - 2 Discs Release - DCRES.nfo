@@ -1,0 +1,126 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+----------------------------------
+Headhunter (PAL) *2 Discs Release*
+----------------------------------
+Ripped: Nothing.
+Downsampled: Most audio 44khz stereo -> 32khz stereo; videos.
+Source: GD dump and PS2 version of the game.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi images.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+After some months of inactivity, here I am again bringing a very requested release: Headhunter in
+2 discs. In case you missed, the previous release was a split version (4 discs) without anything
+downsampled. This one of course needed media downsampling.
+
+First thing you need to know is that it has stereo sound. Soundtrack of this game is awesome, so
+you'll probably enjoy that. Note that the 44khz -> 32khz difference can't be noticed by most
+people (at least on most sound systems).
+
+Also notice that the video was encoded using the PS2 videos as source (MPEG-2 in high bitrate) to
+achieve the best quality possible. Resizing was made using a high quality filter and in every
+manipulation of the video lossless formats has been used.
+
+Downsampling all the audio wasn't easy. There are a bunch of .ADP files on this game. About half
+of them are common ADX files, easy to work with. The other half is a "not standard" ADPCM format.
+I had to figure out how to decode them and write my own tools to manage the data. It took a lot of
+work, I'm glad it worked. The result is that all ADP files could be downsampled.
+
+There are some AHF package files on the game. These files contains the data actually loaded in the
+memory. Some sounds (gun shots and steps) were inside of them. After some reverse engineering I
+was able to figure out this format and write my own tools to unpack and pack it back. With that I
+could downsample the audio inside the AHF files. A problem appeared though, the modified audio
+wasn't playing during the game. I could hack the game to make it play right, and I really got
+happy, at least for some time. After getting the motorcycle, the motor sound got really messy. I
+figured out later that the motor sound is made playing more than a sound at the same time, and
+probably their sync is made based on the samples of the audio. If you change the frequency like I
+did, sync gets messy and you get the bad result I did. The result: I couldn't downsample the sound
+inside the AHF. With that I lost about 8mb per disc, which isn't a big deal. This whole process
+took me some days and ended being a total waste of time. Well, shit happens.
+
+At this time I really thought the worst has passed, but then I started working with the videos.
+
+This game uses 4XM video, a format that sucks a lot, at least for encoding. The encoder is
+extremelly slow (2~5fps per core on a Core 2 Duo). It means that I take about 6x~15x the play time
+of a video to encode it. Well, fortunately it uses constant bitrate and the final size can be
+easily predicted, so I didn't have to do the whole process too many times. I wonder how much time
+they took to encode the videos at the age with P2/P3.
+
+The 4XM encoder compresses the audio in a ADPCM format that sucks. It distorces the audio too
+much. Additionally, the player adds some "ticks" when playing a sound with a too wide spectrum. To
+correct this, I had to inject uncompressed PCM audio in the videos where this effect appeared. The
+ADPCM sounds are in 32khz stereo and mono, and the uncompressed PCM audio in 22khz mono. Even with
+these problems, the videos have a very good and uniform quality. It's probably the not-splitted
+release with the best videos of the scene.
+
+I need to admit I'm not 100% happy with the results. I'm pretty sure I made my best for this game,
+but I wanted to make it better, probably because I like it a lot. Well, but you can't have
+everything, can you?
+
+Performance is improved over the split release because I didn't have to worry if videos were in a
+position where they could be streamed fast enough.
+
+If you use subtitles on the videos, note that some of them don't have a very good sync. It's not
+my fault, it also happens with the original videos. When I decided using the PS2 videos, one of
+the first things I did was checking if they were 100% syncronized with original Dreamcast videos.
+These problems probably appeared because the developers had to rush near the launch date and
+couldn't fix it.
+
+Starting with this game, I'll release the tools I used for this game in case you're interested.
+Check my blog at snesorama in a few days, they should be there.
+
+Headhunter is an amazing game, I hope you like this 2 discs release, it should be by a great
+margin the best not-splitted release around. However, if you are a huge fan like I am, you should
+take a look at my previous split release.
+
+
+Features of my release:
+- Only 2 discs.
+- Stereo sound.
+- Videos with good quality (taken from PS2 version).
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

@@ -1,0 +1,109 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2011 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+-----------------------
+Rainbow Cotton (NTSC-J)
+-----------------------
+Ripped: Nothing.
+Downsampled: All audio 44khz stereo -> 32khz stereo; most videos downsampled.
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+Long time I don't work on Dreamcast... but don't worry, I'm back with this ultra cute game:
+Rainbow Cotton. It's a bizar 3D shooter, very fun and hard.
+
+It was a very time consuming project. Although there were no protections involved, two
+complications appeared.
+
+First complication, the simplest one: game keeps streaming music and voice from different files.
+Since the music pack is big, reader keeps moving all the time during the game. To make it better,
+I put the audio files in the out part of the disc and downsampled every 44khz audio to 32khz. With
+that, size were reduced (and therefore the radius distance between the files) and since outer part
+of the disc holds more data than the the inner per radius unit, the mean distance also got
+reduced. As I always do in my release, the difference in quality can hardly me noticed. The moving
+kept much better after this change, but it still happens. It's just something we'll have to live
+in, and shouldn't be annoying.
+
+Second complication, the hardest one: game loads game files WHILE playing the videos. Really. If
+you have videos in too high bitrate, they will keep locking once in a while. If the files are not
+in a good order in the disc, in addition with the locking you'll also get too much moving of the
+reader (noise!). How to solve that? I wasted some discs (five, to be exact) in tests, and
+fortunately everything went alright at the end. I splitted videos in two parts, and put game files
+in the middle. This way no video would be too far from game files. Additionally, I tested
+different bitrates and made some worst case tests with the first videos to be sure everything
+would be played correctly.
+
+This is another case where original GD file order just don't work, unless you use a very low
+bitrate for videos...
+
+Ending video needed to be downsampled because of the size, and arranged to make sure the other two
+not downsampled videos played right (reading speed is not good enough in the inner part of the
+disc to play them correctly).
+
+There were some redundant files that were re-linked, and an "almost redundant video" that was
+re-linked as well. It was the video that plays in the main menu if you don't press any key. The
+videos were identical, except for a little japanese subtitle for about two seconds. The one with
+the subtitle were maintained and the other file was re-linked to it.
+
+PAL users, this game will already work in 60hz on your consoles.
+
+By the way, I'm looking forward to add subtitles to the videos. So if you know japanese, or know
+anyone that knows and want to help, please let me know. There are about 12 minutes of video to be
+translated, and I can help the person finding/indicating the appropriate tools.
+
+Oh, and I almost forgot to thank: the anonymous person that ripped this game; fatman01923 for
+uploading it for me; BIMBOBOOP for letting me know that the rip was available.
+
+I'm really happy with the results. It gave me a lot of work, but it totally worth it. Have fun
+with this not very popular but great 3D shooter.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- All videos plays correctly.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some stuff including: images from CD part of the GD, and
+a long japanese dialog track also from the CD part of GD. I wish I understand anything.
+- Release comes with covers.

@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+---------------------
+Flag To Flag (NTSC-U)
+---------------------
+Ripped: Nothing.
+Downsampled: Videos.
+Source: GD dump.
+
+Wow, tons of problems with this game. First one was cracking it. Regular method made it freeze on
+title screen. So I checked Echelon's release and changed two additional bytes like they did, it was
+finally working. But that was only the first problem. There are some videos that play when you are
+selecting tracks in Arcade Mode. My downsampled videos weren't playing at all. I took a lot of time
+to find the reason. More recent CRI's SFD Multiplexer adds an extra stream in SFD file. I figured
+that out analysing the original video. When the game is going to play the video, it finds the
+unknown block identification and freezes. Well, normal players should just skip that block. Anyway,
+it took a lot of time to find this because I didn't know anything about MPEG multiplexing. After
+some research, I was able to manually cut the "unknown" block (luck it was only one) and finally
+video played perfect. Well, at least it's what I thought. Video started playing, but was freezing
+after a while. Checking my downsampled videos, I saw that only part of the video was encoded, not
+all. There was some irregularity in the demultiplexed source. If I played one of the videos on
+MediaPlayer, for example, it showed 17 seconds in time bar, but after that it still kept playing.
+It means that there was more video than 17 seconds, but my encoder stopped encoding at 17 seconds.
+Well, that sucked, and I had to look in a lot of places to finally find a converter (WinAVI
+Converter) that could convert the whole video. So I converted videos in another format using a 
+ossless encoder, and used the converted files to encode the final videos. Testing again, it was
+still freezing after a while! But I was sure video was okay this time. After some tries I found the
+problem. In the game, videos have a crap quality mute sound multiplexed on the SFD. I thought it was
+okay to encode without the sound because if there was some problem video probably wouldn'tt play at
+all. But I found out later that I needed to use audio or else I was going to suffer with these
+freezes. And there I went, encoding all videos again, now with a different bitrate to use all space
+I had available in disc. After that, videos worked good (finally!) and I could release this game.
+
+Note that Echelon ripped part of some CDDA tracks to make the game fit on a 74 min CD-R. In this
+release they are untouched. I thought I was going to have problems with video quality because lack
+of space, but videos are all played in a small screen and in the final result I couldn't notice any
+significant difference.
+
+File order was optimized using the same method I used in Mortal Kombat Gold, keeping video at the
+end of the disc so game files would stay closer to CDDA tracks. And yeah, I know some of you think
+that I should keep game files in end of the disc, but performance is better the way I did. Note that
+GD file order was used as base for all modifications.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- CDDA fully working (and full tracks!).
+- Used custom file order. It helps loading times and Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

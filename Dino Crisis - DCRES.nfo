@@ -1,0 +1,62 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+--------------------
+Dino Crisis (NTSC-U)
+--------------------
+Ripped: Nothing.
+Downsampled: A movie re-encoded (no quality loss, read below).
+Source: GD dump.
+
+This game had movies encoded on a high bitrate, and even with dummy the read speed in inner part
+of disc was not enough to play them correctly. My first thought was downsampling them. However, I
+found a way to maintain them intact. I moved them to the "faster" area of the disc, so they could
+be played correctly without downsampling. The only problem for that was moving game files to the
+"slower" area, but file order was optimized and a nice dummy file could be added so reading speed
+is good enough for having almost no loading times.
+
+The only exception for movies was a little one played in corner of credits screen in the end of
+the game. I have re-encoded it with pratically zero quality loss, you won't notice anything.
+
+This game originally did not support VGA-Box support, but I have enabled it and it's working
+fine. The only problem is that videos are not shown if you're using VGA. There is nothing I can
+do about it.
+
+Have fun with another high quality release of DCRES.
+
+Features of my release:
+- Videos untouched (except one).
+- Not corrupted files at all, it was made with GD dump files.
+- Dummied for 700mb CDs. It means faster loading times.
+- Used GD file order. It means faster loadings and less Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box suppor enabledt. However, movies won't be shown if you're using VGA.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

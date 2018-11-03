@@ -1,0 +1,92 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+--------------------------------------
+Dragonriders: Chronicles Of Pern (PAL)
+--------------------------------------
+Ripped: Nothing.
+Downsampled: Videos; audio 44khz stereo -> 32khz mono; audio 22khz stereo -> 22khz mono.
+Source: GD dump.
+
+This was a tough game to work on. As you know, Echelon's release do not play videos at all. It
+happens because if game cannot fetch the video files on a certain (little) time, it just skips the
+play. Well, after optimizing the file order I had the same problem.
+
+After some tries, and some time thinking, I decided to use the original GD file order without
+modifications. Well, the videos played. However, the fastest area had to be occupied by streaming
+data, what affects the performance a lot because the files that are used during the loading times
+were in the "slowest" part. The performance was so bad, that in some cut-scenes, the game used
+about 5 seconds of loading each 2 or 3 lines when playing a background music. That was very
+annoying and I had to do something about that.
+
+That was the moment when I decided to downsample the media. With that, I could reduce the data
+needed to be read for the music and move more files to the "faster" area of disc. Additionally,
+when moving files to the faster area (where data density (data/range in radius) is bigger), I
+could optimize file order a little and still maintain the videos working correctly.
+
+The results got great, better than I expected. Loading times are much better than the ones on
+Echelon's release and on my first tries, reader noise is very reduced and all videos are playing
+correctly. For the ones that never played the original GD, there are 4 videos: 1) Developer logo;
+2) Story introduction just after the first video; 3) Another story video when you start a new
+game; 4) A video that plays when you select the "View Credits" in the options menu.
+
+Oh, and another thing about videos. The first one had a lot of "ticks" in audio. You know the
+things that appear when you copy an audio track of a damaged CD? The "ticks" I'm talking about is
+something like that. When listening to it for the first time, I thought it was some player
+problem, but after demultiplexing the video on PC I noticed that the "ticks" were in original
+audio. This glitch is also in the NTSC-U release of this game, and it's a shame that developers
+hadn't noticed that before launching this game. Well, I have filtered the audio and could take
+most of "ticks" off. It's better than the original audio, but it's not perfect. You can still
+notice some very little pauses, but there is nothing that can be done about that. Blame the
+developers, not me.
+
+This is the PAL version but it works fine on NTSC consoles and with VGA-Box. It also comes with
+text in 3 languages (English, German, and the last one is French I think), that are selected
+depending on the language that you have configured on the BIOS.
+
+I'm very proud of this release, it has demanded a lot of work but the results got great. I have
+never seen a fully working release of this game before, so I think you'll want to grab this one.
+Have fun with it, it's not a very good game but at least it has a nice presentation...
+
+
+Features of my release:
+
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.

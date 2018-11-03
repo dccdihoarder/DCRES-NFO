@@ -1,0 +1,26 @@
+Legacy Of Kain: Soul Reaver (NTSC-U)
+-------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check snesorama.us forums for more releases
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Nothing.
+Source: GD dump.
+
+No challenges for this game. I got GD dump, hacked main file, optimized original file order (videos in inner part of disc, changed order among videos), added extra files (in dummy area), dummied and here it is.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used correct file order (same of GD), that was optimized later, what means faster loadings and less noise of Dreamcast reader.
+- Selfboot.
+- Dummied for 700mb CDs, what means faster loadings.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "EXTRAS" folder in disc contains files from CD part of GD (useless text files and a DA file) + warning audio track. Of course they were put in dummy area.
+- Release comes with manual and covers.
+
+My releases are for Dreamcast console. If you use emulator, this release will work, but it will work exactly like any other release (except that you have guarantee for not corrupted files). If you play in emulator, I recommend you to try GD dumps instead. If you play in console, you'll notice a nice improvement in this release compared to others.

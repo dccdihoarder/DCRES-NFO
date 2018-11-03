@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+---------------------------------
+Dave Mirra Freestyle BMX (NTSC-U)
+---------------------------------
+Ripped: Nothing.
+Downsampled: Nothing.
+Source: GD dump, Echelon's release (oRARs) and Echelon's CDDA patch.
+
+This game has no standard CDDA routines, so if you hack this game as others most CDDA tracks won't
+play correctly. Fortunately, Echelon has released a patch for that. Unfortunately, the patch is
+not easy to apply. It needs you to reconstruct the game from files + tracks. Well, first time I
+tried it didn't work. After some time, I found out that to work correctly, the CDDA tracks had to
+have the same start LBA of the original Echelon's image. It looks easy to make, but it's not. For
+example, not all programs that can copy CDDA from disc copies it with the exactly size. Also, when
+burning them, some programs (example: cdrecord) adds pad data to the track, what changes the start
+LBA number of the tracks. Even if you use cdirip on Echelon's image (my case), depending on the
+options you use the size of the track gets different. Well, I used GD CDDA tracks and recorded
+them with the correct LBA, so everything is playing alright now.
+
+Thank Echelon for their great job fixing this game. Thank me for making this pack.
+
+After a lot of research I found NO image that had CDDA working, so I assume mine is the first one
+floating around. Additionally, I found a lot of messages on board of people that couldn't use the
+patch. So grab it fast and have fun with another masterpiece release by your DCRES friend, and
+enjoy the nice soundtrack of this game.
+
+Features of my release:
+- CDDA fully working. Yes, that's true.
+- Not corrupted files at all, it was made with GD dump files.
+- Dummied for 700mb CDs. It means faster loading times.
+- Used custom file order. It means faster loadings and less Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

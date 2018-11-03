@@ -1,0 +1,114 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+----------------------
+Kao The Kangaroo (PAL)
+----------------------
+Ripped: Nothing.
+Downsampled: Nothing.
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+================
+
+Although it's the PAL version, it will work fine in NTSC-U consoles with or without VGA-Box as
+usual.
+
+Pal users, apply the included patch to make the game boot in 60hz in your consoles.
+
+=== Read only if you're having trouble ===
+
+This game has only a few data files and a lot of CDDA, so the start of second session is very
+close to the end of the disc. Because of the reader's calibration, some consoles may have trouble
+recognizing this disc. It can be "fixed" remastering the disc in a unusual (but working) way. Here
+I teach you how to do it. Remember: if your console is recognizing your disc well, you don't have
+to worry about it.
+
+You must be confortable using Echelon's selfboot method to make it right. Tools needed (not
+included in the pack): cdrecord, mkisofs, binhack, ipins. Optional: cdirip.
+
+1) Extract the CDDA tracks, either using cdirip on the .cdi image or using your favorite program
+on your already recorded disc. You should have track01.wav, track02.wav, ..., track57.wav now.
+2) Delete track01.wav.
+3) Rename track03.wav to track01.wav. Now you should have track01.wav, track02.wav, track04.wav,
+track05.wav, ..., track57.wav.
+4) Record the first two tracks (track01.wav and track02.wav) as told in Echelon's tutorial. For
+that, move both tracks to your cdrecord folder and use "cdrecord -dev=a,b,c -multi -audio -pad
+track01.wav track02.wav -speed=x", where a,b,c is the number corresponding to your recorder (use
+"cdrecord -scanbus" to find out) and x is the recording speed. Example: "cdrecord -dev=4,1,0
+-multi -audio track01.wav track02.wav".
+5) I'll assume the toolkit of the Echelon's method (that has the tools I mentioned earlier) is in
+"c:\selfboot". Create the directory "c:\selfboot\data" and copy the files of the game (extracted
+of your already copied disc) to there. In my release pack, there is a directory called
+"Remastering". Copy the files "ip.bin" and "kao.txt" of there to "c:\selfboot".
+6) Use "cdrecord -dev=a,b,c -msinfo" (replacing a,b,c) and it will show you a number. I'll refeer
+it now on as "0,Y".
+7) Now move "1ST_READ.BIN" of the "c:\selfboot\data" directory to "c:\selfboot".
+8) Execute "binhack.exe" and it will ask data. Type "1st_read.bin" for first question, "ip.bin"
+for second and "Y" (your -msinfo number without the "0,") for third. Example: If you get 0,12000
+as "-msinfo" number, you'll use 12000 for the third question.
+9) Move "1ST_READ.BIN" back to the "c:\selfboot\data" directory.
+10) Use "mkisofs.exe -C 0,Y -sort kao.txt -l -o data.iso data", replacing the Y number of course.
+It will create the file "data.iso".
+11) Execute "ipins.exe", then type "ip.bin" for first question and "data.iso" for the second one.
+12) In the "Remastering" directory there is a file called "script.bat", right-click it and select
+"Edit" (or just open it in notepad). You'll find a big command line there. Replace the
+"-dev=a,b,c" and "-speed=x" for the correct values and save the changes. Move the edited
+"script.bat" to "c:\selfboot".
+13) Move track04.wav, track05.wav, ..., track57.wav to "c:\selfboot".
+14) Execute the "script.bat" and the rest of the disc should be recorded.
+15) It's ready to play.
+
+I think only a few people (if any) will need to remaster this disc, however, if a considerable
+number of people has problem with this, I can remaster the disc and put it to download too, just
+let me know.
+
+=== End of trouble section ===
+
+Enjoy.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.

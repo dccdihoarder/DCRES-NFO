@@ -1,0 +1,94 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+---------------------------
+Psychic Force 2012 (NTSC-U)
+---------------------------
+Ripped: Nothing.
+Downsampled: 2 songs monoized.
+Source: GD dump.
+
+==========
+ATTENTION:
+==========
+
+This release was made for 80min CD-R, but it will require 28 seconds overburn (about 4mb, ~0.6%).
+You shouldn't have any problems burning this in any media. Be sure to use the option "Overburn" in
+DiscJuggler, or the appropriate option of the software you're using.
+
+================================================
+You don't have to read anything below this point
+================================================
+
+Kalisto has released this game in the past, but they had converted the audio to 22khz (and cracked
+the game to make it play correctly, a really nice piece of work) to make it fits on a CD-R. Some
+other guys re-linked the the two audio channels to a single file (like in Soul Calibur). I've
+tried another approuch.
+
+First I saved a lot of space re-linking redundant files, kudos to Darkfalz for the idea and the
+utilities that made the work much easier. However, the overburn would be too big with the space
+left. So I've monoized the 2 biggest songs using the classic trick: re-link the file of right and
+left channel to the same file. It would be a crap job though, because the song wouldn't be a real
+mono, you would lose the sounds of one of the channels. After a lot of work, I was able to
+correctly figure out the Yama*a ADPCM format used in this (and a lot others) game (s), manually
+add a header to the raw files, decode them with ffmpeg (this great free software can decode even
+the most obscure file formats!), join the channels and use the official tools to encode the audio
+back. With that, I was able to make a full mono version of the songs. Now you can enjoy this game
+with stereo audio in 44khz (except for two songs in 44khz mono). Probably this is the only release
+with that feature. The bad thing is that it will requires a very (very very very) small overburn,
+but it's a very fair price to pay.
+
+The MP3 of the full quality tracks that were downsampled are included in the "Extras" folder in
+the pack.
+
+Oh, and now that I was able to work with this weird ADPCM format, expect nice news soon, mainly
+related to some "unrippable" games.
+
+VGA-Box support was already enabled in the game, but it just won't work. Blame the developers.
+
+PAL users, this game will already boot in 60hz in your console.
+
+Enjoy another DCRES masterpiece. Always with fresh ideas for your old console.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

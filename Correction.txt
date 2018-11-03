@@ -1,0 +1,1 @@
+PAL patch is already applied, ignore the "Important" note at readme.

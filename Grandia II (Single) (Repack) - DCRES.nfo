@@ -1,0 +1,102 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+------------------------------------------
+Grandia II [Single Disc] (NTSC-U) *Repack*
+------------------------------------------
+
+The game was freezing on a cut-scene after you go back to Roan's city. It took a while but I found
+out the problem. For some reason, the song that played on the cut-scene was freezing the game if
+it was downsampled, but after I restored the original file everything worked again. It increased
+only around 600kb on overburn, so I doubt you'll have any problems burning this. At least, I
+hadn't.
+
+I hope this is the final release, I can't work on this game anymore LOL.
+
+Don't forget reading the original readme below, it has important information. If this repack is
+the first download for you of my release, be sure to read the overburn information.
+
+=====================
+Original readme file:
+=====================
+
+---------------------------------
+Grandia II [Single Disc] (NTSC-U)
+---------------------------------
+Ripped: Nothing (!).
+Downsampled: All sounds monoized (including video's); voices downsampled; videos downsampled.
+Source: Echelon's release, GD dump.
+
+=== ATTENTION: ===
+This release is for standard 80min CD-R but it needs around 5mb overburn (< 1%). I tested burning
+this in two different brands of CD-R and in one CD-RW, burning ended without errors and all data
+could be read with success in my PC DVD drive. Both CD-R booted and worked alright in my Dreamcast.
+The boot binary is in the "critical" zone (overburnt), so if your game boots nice it won't present
+any errors after since other files are in the "safe" zone.
+
+So, for burning, be sure to use a nice brand 80min CD-R. Getting a bigger CD is not necessary. Burn
+in a good speed (4x, 8x or 16x) and I doubt you'll have any problem.
+
+To burn this with DiscJuggler, you have to go in the "Advanced Tab" and mark "Overburn CD", else it
+will say media is too small and it will cancel recording. If you're using Alcohol 120%, you'll have
+to figure out how to record by yourself.
+==================
+
+My last release was a split release following Echelon's file separation. However, some people were
+complaining that the game was freezing in a part in second disc, so I had to take a look on that.
+I was bored anyway, so I took a time to analyse this game more deeply and see if I could make it
+fit on a single disc. All single discs versions of Grandia II that I saw had the videos ripped,
+what is really annoying.
+
+I'll save you from listening all my story (and myself of writing it all), and I'll tell you the
+final part. After some (correction: a lot) of experiments, I finally could finish this release. All
+sounds were monoized, as usual, using high quality decoders. Voices were downsampled, and
+fortunately they didn't got annoying or too bad. Videos were downsampled to the maximum I could
+without making them crap. I used VBR for them, and that was the decisive factor that made the space
+enough. Note that videos are ugly, they're far from perfect, but you can watch them without 
+problems. And by the way, if you check their size you'll realize that it's a miracle that they got
+so good. I tried to downsample the skills videos, but if I changed them the game froze, so they got
+intact. I also shrinked the AFS files to make the more space I could.
+
+I used Echelon's main binary, and game files are all there, so I'm sure the game will work until
+the end without errors. Oh, and I was able to figure out a better file order than last time, so
+loading times are faster and reader's noise is very reduced.
+
+Did I make history again? Well, I hope. Enjoy Grandia II with full content on a single disc.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Nothing ripped, and the game is on a single disc.
+- All downsampling were made using high quality decoders and encoders.
+- Used custom file order based on GD's. It means faster loadings and less Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

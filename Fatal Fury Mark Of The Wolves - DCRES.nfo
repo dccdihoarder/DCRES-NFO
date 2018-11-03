@@ -1,0 +1,25 @@
+Fatal Fury: Mark Of The Wolves (NTSC-U)
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check snesorama.us forums for more releases
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Music.
+Source: GD dump.
+
+Echelon's release of this game had a serious problem. Ignoring their logo that crashes emulators and makes game start annoying, during the game sounds lag a lot. It happens because there are 2 sound AFS files: one huge for music and a small ones for voices, sounds, etc. During the fight, both files are accessed at the same time (have you noticed that the reader keeps moving all the time?). So background music is playing, and when you kick your opponent, for example, reader must stop a little, go read voice file, and then go back to keep streaming music. The result is that the kick sound plays late. In GD, a lot of factors contribute to make game runs fine, but not in Echelon's version. Although they put a little dummy file, it's not enough to make reading fast enough. Well, it was time to try some alternatives, but first I had to hack binary to make the game play on a CD-R. It was a hard to crack game (protection probably), and I had no idea of how to do it, so I examined Echelon's binary and saw how they did, and just copied the different bytes. Hacking credits are all theirs. After some tries it booted fine. So I tried on my DC shrinking AFS, maximizing dummy and using correct file order (of original GD). SNK dudes made a nice work on file order, it's very optimized. They put the music and voice files where Dreamcast reads faster, and that's a factor that makes it run okay on GD. Well, with this technique results were better than in Echelon's release, but not enough to make sounds play 100% correctly. In GD, files are more condensed, so files are closer to each other. In CD, even with dummy and file order, seeking time (noisy sounds) was still messing reading speed. Time to give up? Not really. I wondered that if I downsampled the music, I could cut music pack at least half size. It would mean less data to stream, and music file would be closer to voice file. Downsampling voices would be stupid for some reasons: 1) It's a too important part of the game, 2) Voices are already in a very low quality (that's another reason that makes sounds play right on GD), 3) Voice pack is already too small, so the gain doing this would be minimal. Well, so I worked on music pack. I monoized sounds, cutting size of it by half. Testing on Dreamcast... no more sound lag! Reader moves were minimal during fights, and everything played at the right time. Just one problem: mono music only played on left speaker, wow. In fact, it played right if you select "Mono" in options, but as I know no one in earth would read instructions before playing (if you're reading this you're an alien), I tried another thing. I downsampled music to 22khz stereo, the bitrate is the same of 44khz mono. Tried and that's the final version. No more sound lag! I doubt there is another release with this feature around. And before you blame me, downsampling was the only way to get rid of the problems. And you'll hardly notice the difference anyway.
+
+Features of my release:
+- No more sound lag! It's working wonderful.
+- Not corrupted files at all, it was made with GD dump files.
+- File order is the same of GD, it means faster loadings and much less noise of Dreamcast reader.
+- Selfboot.
+- Dummied for 700mb CDs, what helps a lot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

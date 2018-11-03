@@ -1,0 +1,46 @@
+Mr. Driller (NTSC-U) *Repack*
+-------------------------------------------
+Dreamcast Ressurrection - 2009 (since 2008)
+
+Check snesorama.us forums for more releases
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Nothing.
+Source: GD dump and Kalisto's release files.
+
+A nice guy from snesorama forums sent me the european GD dump of this game, so I finally could repack it with original CDDA tracks (instead of encoded and then decoded MP3 of Kalisto's release). Most people won't notice quality increase, so if you have my last release don't worry about downloading this one. I've included some useless things in package too, nothing that worths another download. I've checked GD file order too, and I was right when I guessed it on last release.
+
+This must be the best Mr. Driller release around, a "perfect" one. Have fun.
+
+===========================================
+BELOW MY ORIGINAL README FILE:
+===========================================
+
+Mr. Driller (NTSC-U)
+-------------------------------------------
+Dreamcast Ressurrection - 2009 (since 2008)
+
+Check snesorama.us forums for more releases
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Nothing.
+Source: Kalisto release files.
+
+I searched everywhere and I couldn't find the GD dump from this game, so I used Kalisto release. Note that this release have all CDDA tracks working correctly. Well, after get the files, I dummied the game for 700mb with the first audio track. I've seen some people dumming CDDA games with dummy file instead of audio, but that's a stupid thing because you keep game files and audio tracks separated. Anyway, after that I recorded using the files in a order I thought more correct (there were only 3 files making less than 10mb, so knowing original file order is useless) and there it is.
+ 
+Features of my release:
+- Not corrupted files at all, it was made with Kalisto release files.
+- Fully working CDDA tracks.
+- Selfboot.
+- Dummied for 700mb CD using audio track, it means that game files and CDDA tracks were pushed to the place where Dreamcast reads faster.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- I usually include extra files in CD, but in this case I only got 0GDTEX converted to bitmap and put in package, not in disc. Extra folder are not in CD because there was no dummy area in game files so extra files would only separate game files from tracks. Other files that I usually includes are not present because I haven't found the GD dump for this game.
+- Release comes with covers. Manual was not included because I couldn't find it on internet.
+
+This is a game I plan to re-release in future when I get GD dump for two reasons. The first one is that I want to include the extra files. The second reason is that I used audio tracks from Kalisto release, that were packed in MP3 for distribution. Although quality loss is imperceptible, I'd like to use the original raw audio files next time.
+
+My releases are for Dreamcast console. If you use emulator, this release will work, but it will work exactly like any other release (except that you have guarantee for not corrupted files and it's selfboot). If you play in console, you'll notice a nice improvement in this release compared to others.

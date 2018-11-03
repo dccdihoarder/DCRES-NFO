@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+---------------------
+Plasma Sword (NTSC-U)
+---------------------
+Ripped: Most CDDA tracks edited.
+Downsampled: C***OM opening sound 44khz stereo -> 32khz stereo.
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+This game was huge: ~87 minutes of CDDA music. The music itself wouldn't fit a CD-R, now imagine it
+with the game files.
+
+Echelon decided to rip some tracks and re-link them to others. The guy that asked me for this
+release said that the same song played every stage, what looks like a real bad thing. I took the
+CDDA editing approuch. I must admit I didn't think it was a good idea at start, because according
+to my math I would have to cut about 34 minutes of music. I almost gave up this project, but
+decided later to give it a try. I managed to make very wise cuts: stage songs now have ~2 minutes
+(originally 3+ minutes) and ending songs should be long enough to play until the end of the
+animation. Note that every song will end with fade out and they will repeat correctly after it
+ends, just like the original tracks.
+
+I couldn't test this game in every possible situation, but I'm pretty sure it will work fine in
+every circustance. If you play it for some time, please send me a feedback message.
+
+I wasted 3 discs (and a lot of time) until I could find the correct way to crack the CDDA in this
+game. Usual cdda.exe will make game freezes after C****M logo in the real console, and for some
+reason not in emulators. Fortunately I could make it work.
+
+This game won't work with VGA-Box. I've enabled the VGA flag but the game just refuses to output
+VGA signal. Well, the graphics are terrible anyway...
+
+PAL users, this game will boot in 60hz on your consoles.
+
+Another release to make you happy. DCRES: keeping the dream alive.
+
+
+Features of my release:
+- Every single song avaliable.
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers (low quality).

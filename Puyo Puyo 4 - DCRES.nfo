@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+--------------------
+Puyo Puyo 4 (NTSC-J)
+--------------------
+Ripped: About half of CDDA tracks edited (only a few seconds).
+Downsampled: Opening video.
+Source: GD.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+I'm very proud to present my first release made from my own GD rip. With the last DreamShell
+version now able to rip GDs (thanks to SWAT for this feature), I bought Puyo Puyo 4, ripped myself
+to a SD card and could make the first complete release of this game, at least as far as I know.
+
+Here's the thing, at the time I was working on this, there were two Puyo Puyo 4 releases around.
+One is VECTREX's, and it has untouched opening video but all CDDA ripped out. In the readme he
+said he ripped the CDDA because he thought it was annoying, and he wanted to keep the opening
+video. The fact is that he probably wasn't able to make it work and just came with an excuse. The
+music is pretty cool and you kill the game without it. Anyway, the second release is of BLIBBERO's
+(actually he says it came from a private source), and it's better and pretty rare (thanks to
+Basil/Vasiliy for making it available on the usual forums). The dude that worked on it ripped the
+opening video, but made a release with CDDA. But there is a problem with this release: the CDDA
+tracks order are all messed up, so the game keeps playing the wrong track.
+
+In my release, both opening video and CDDA tracks are present (in correct order of course).
+Opening video was downsampled, but the quality is very close to the original (the quality wasn't
+the best on it as well). Some CDDA tracks were edited, but they already ended with fade out, and I
+just ripped ~15 seconds, so no difference can be noticed.
+
+Usual CDDA hack was crashing the game after opening, so I compared it with BLIBBERO's release, and
+implemented his hack on my release, there were only 3 different bytes. So the credits for hacking
+CDDA go all to the person that worked on BLIBBERO's release, I just copied it. Thanks for the code
+unknown hero.
+
+PAL users, this game will already boot in 60hz on your consoles.
+
+This should be the first "correct" release of Puyo Puyo 4 in the whole universe, and it comes with
+DCRES quality seal. Puyo Puyo fans will definitely love it. Non Puyo Puyo fans will get it, get
+addicted and love it as well. So it doesn't matter which group you belong to, just burn this game
+and have fun.
+
+Features of my release:
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers. I would scan the manual but I'm too lazy to find my scanner.

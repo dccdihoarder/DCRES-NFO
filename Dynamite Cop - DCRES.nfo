@@ -1,0 +1,24 @@
+Dynamite Cop (NTSC-J)
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check snesorama.us forums for more releases
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Nothing.
+Source: GD dump.
+
+This game really sucks without dummy, so I decided to work on it. Loading times don't bother too much now. I shrinked AFS, removed a useless japanese opening video that some programmer forgot there, hacked binary, dummied, used correct file order and burned it.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- File order is the same of GD, it means faster loadings and less noise of Dreamcast reader.
+- Selfboot.
+- Dummied for 700mb CDs, and it helps loading times a lot because game is very small.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

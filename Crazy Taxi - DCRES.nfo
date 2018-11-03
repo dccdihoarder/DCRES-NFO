@@ -1,0 +1,42 @@
+Crazy Taxi
+------------------------------
+2008 - Dreamcast Ressurrection
+
+dreamresurrection.blogspot.com
+dreamresurrection.cjb.net
+dreamresurrection.go.cc
+dreamresurrection.shorturl.com
+------------------------------
+
+This release was made from original files of Kalisto's Crazy Taxi release.
+Since this game is small, nothing was ripped. The only problem about 
+Kalisto's release was the loading time. If you get the car and start 
+running without stop, city won't load in time and you'll be in a void for
+some time. Additionally, Kalisto's release is not selfboot. This release
+fixes all these problems. Here the features of our release:
+
+- The file is now dummied for 700mb CD. It means files are farthest from 
+center where Dreamcast reads faster. Loading times are incredible fast and
+city will load correctly ALL THE TIME.
+- VGA Box is supported as in original release.
+- There is a folder "extra" where there are files from CD part of GD. In
+this game it's only the .txt files and the audio track.
+- Selfboot.
+- File order was the same of GD, and then no game files (as 0GDTEX.PVR,
+new extra folder, dummy file and copy of IP.BIN were moved to inner part
+of disc).
+
+Our releases are for Dreamcast console. If you use emulator, this release
+will work, but it will work exactly like Kalisto's release (except it's
+selfboot). If you're playing in Dreamcast, you will notice a great
+improvement over Kalisto's release.
+
+Enjoy our first release!
+
+---------------------------------------------------------------------------
+WARNING: We don't want to support piracy! Dreamcast stopped being supported
+7 years ago. Companies don't make money with it anymore. This work is only
+a fan no-profit work. We only want to support Dreamcast owners who can't
+find GDs anymore. If this work harms any company interests, please enter in
+contact using website and it will be removed immediately. Thanks.
+---------------------------------------------------------------------------

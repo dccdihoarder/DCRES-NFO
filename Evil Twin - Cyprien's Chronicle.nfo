@@ -1,0 +1,124 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+------------------------------------
+Evil Twin: Cyprien's Chronicle (PAL)
+------------------------------------
+Ripped: Nothing.
+Downsampled: Audio (~44khz -> ~27khz), U** **FT logo video.
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi images.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+=== ATTENTION: ===
+This is a single disc game, but the "unpack.bat" will create two images: one with the English
+speech and other with the French speech. Burn only the one you're interested in.
+
+Texts in all languages are avaliable in both discs.
+==================
+
+After some time away, here I am again bringing another great release. This one was really hard to
+finish, but it totally worth it.
+
+Audio in this game was in a not standard format. I had a hard time figuring out how to decode,
+encode it back and make it play right. It took me several hours and I had to write my own tools to
+automatize the process. Believe me, it was not fun. The good part is that it worked perfectly.
+I'll make the information and tools avaliable in my snesorama blog, so take a look later if you're
+interested.
+
+I've downsampled the audio to the maximum frequency possible that still made the game fit on a
+CD-R. Since original audio (~44khz) had not an excellent quality (it's a pity since the soundtrack
+is awesome), and I've preserved stereo, the quality of the downsampled audio is very close the
+original. If you don't have a high quality sound system or you're not comparing the sound with the
+original GD, you won't notice any difference.
+
+This game has a few audio glitches. For instance, after you talk to the first character, the music
+won't play unless you pause and un-pause or an information window pops up. If you pause and
+un-pause the game, the music will restart (not continue from where it stopped). Additionally, when
+characters speak in the movies, the music simply stops, the game won't play music and voices at
+the same time. This is a behaviour of the game, meaning that it also happens in the original GD
+and these glitches have nothing to do with my downsampling. It's known that the developers rushed
+the game to the stores because of the "death" of Dreamcast, so you should expect more glitches
+along your gameplay.
+
+The first opening video was originally encoded in a extremelly high bitrate, impossible to be read
+on time even on the "fastest" area of CD. It's been downsampled (still with a very high bitrate)
+to be played right, and you won't notice any difference. This is the first time that a 4XM movie
+don't give me too much work.
+
+File order and disc format has been adjusted to maximize reading performance. If you have ever
+played Echelon's release, you should grab this one ASAP to see the differences in both noise and
+loading times.
+
+I decided to release the two discs (French and English speech) because 1) I don't like ripping
+stuff out; 2) French speech is apparently the original one (Cyprien is actually dubbed by a
+child); 3) English speech sucks (do you recognize the voice of the little flying thing of Sword of
+Berserk?). Except for the language there are no significant differences between these two discs.
+Note that the texts of all languages are avaliable in both discs.
+
+There is an option to choose the voice language. English and French files are linked in a way that
+it doesn't matter what option you select, the game will always play the voices of the correct
+language of your disc. As far as I tested, no problems came from this, and I'm 95% sure that none
+will happen in any situation. If you want to avoid the 5% of doubt, just select the correct
+language in the Options menu.
+
+This game has no protection scheme, what is very strange for a 2002 release. It indicates that the
+developers really had to hurry to launch it.
+
+PAL users, this game will work in 50hz on your consoles. Apply the included patches (there is a
+patch for each image) to make it work in 60hz. Yeah, you read correctly, this 2002 game had no
+50/60hz selector for PAL users. I read on internet that there were instructions about the 50/60hz
+selector screen in the manual, but apparently they forgot or didn't have enough time to implement
+it. Well, another glitch for the list...
+
+This rip was a monster, but it's really nice to see it ready now. Enjoy another present from your
+DCRES friend.
+
+
+Features of my release:
+- Stereo sound with great quality.
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

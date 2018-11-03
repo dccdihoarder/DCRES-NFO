@@ -1,0 +1,29 @@
+Expendable [NTSC-U]
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+-------------------------------------------
+Ripped: Part of some CDDA tracks (read below).
+Downsampled: Main videos downsampled.
+Source: GD dump.
+
+This game was too big to fit on a CD-R because of CDDA, so some of them were edited. Some tracks got 1 minute ripped, others 30 seconds. But don't worry, I've put fade out at the end of them so you won't notice any difference and gameplay won't be affected. There were two intro videos, and the unused one got deleted (it's almost a copy of the other and game doesn't play it, I checked file references). After that, main videos were downsampled to get the correct size. Note that downsampling was made with VBR and the audio got untouched, so quality is the best it could be.
+
+I used a custom file order based on the original one. The difference is that I moved videos to the end of the disc so game files got closer to CDDA tracks, making seeking times shorter.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- CDDA fully working.
+- Used custom file order. It helps loading times and Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

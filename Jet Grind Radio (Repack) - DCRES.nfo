@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+---------------------------------
+Jet Grind Radio (NTSC-U) *REPACK*
+---------------------------------
+Ripped: Nothing.
+Downsampled: All sound 44khz stereo -> 32khz stereo.
+Source: GD dump.
+
+In my last release, audio was monoized (44khz), it was the best I could do in that time. In this
+one, you have stereo audio (44khz -> 32khz). Quality of audio is great! I've compared both
+qualities on my high quality sound system, and the difference is very (I mean very very very...)
+small, you won't be able to notice any difference in-game. If you do compare with my first
+release, however, you'll notice a great improvement: stereo does a lot of difference.
+
+Two great problems came with stereo songs: space in disc and performance. I could make enough
+space deleting useless files, like a cutted song and japanese voice files that are not used in the
+game. Additionally, I could re-link some redundant files. Performance would be affected because
+loading times are made while music is playing, and higher quality music requires more data to be
+streamed. However, with my last optimization techniques it wasn't a big problem, and loading times
+are still very fast.
+
+I've optimized my last custom file order even more. It's VERY optimized, 100% original work. With
+that, be sure you'll be getting the release with the best loading times around. Additionally,
+reader movement has been reduced a lot.
+
+Oh, and this game was protected, but fortunately I found instructions of how to break it and make
+the game work correctly.
+
+PAL users, this game will already boot in 60hz in your console.
+
+Enjoy this great release, another one I'm very proud of.
+
+
+Features of my release:
+- Stereo sound!
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

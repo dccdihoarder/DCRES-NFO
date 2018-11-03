@@ -1,0 +1,105 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+------------------------------
+Resident Evil 2 *REPACK* (PAL)
+------------------------------
+Ripped: Nothing.
+Downsampled: Nothing.
+Source: GD dump.
+
+I could save a lot of space re-linking redundant files, so I didn't have to downsample anything
+like in my other release. Enjoy full quality media.
+
+This game, like a lot others, keep checking the start of the second session when loading files. It
+results in slower loading times and more reader movement. In non-CDDA games, I can easily "fix" it
+by moving the last session start with 2 data sessions. In CDDA games, however, I had no control
+over it. Fortunately I was able to merge a data track with the audio tracks, moving the session
+start as I wish. It's a great step optimizing games, and it will help me a lot in future CDDA
+releases. Expect a great performance increase in this game thanks to this new technique.
+
+Enjoy this super ol... classic game.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.
+
+=====================
+OLDER RELEASE README:
+=====================
+
+Resident Evil 2 (PAL)
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Videos downsampled.
+Source: GD dump.
+
+Note that this release was made with the european version, but it has 50/60hz select screen and
+works wonderful on the american console. It works fine with VGA Box too. This game was the first
+one where I used VBR (variable bitrate) on videos, what means better quality than stardard CBR
+(constant) downsampling. I compared the original videos with the downsampled ones and I couldn't
+notice any difference (yes, the original videos have crap quality too). I let the sound of the
+videos untouched, it was already bad enough (22khz? Bad). Other files are intact. I made some
+little changes in GD file order, but the original one was already nicely optimized. For some
+reason, this game has two short CDDA tracks that I have no idea where they play. I took a look on
+Kalisto's release, and used their layout to burn CDDA tracks, so they must play nice. Have fun.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Videos with higher quality than other releases.
+- Used same file order of the GD, that was slighty optimized later. It means faster loadings and
+less Dreamcast's reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

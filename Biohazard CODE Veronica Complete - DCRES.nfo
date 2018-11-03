@@ -1,0 +1,24 @@
+Biohazard: CODE Veronica Complete (NTSC-J)
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check snesorama.us forums for more releases
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Videos.
+Source: GD dump.
+
+Recently I've been learning a lot of ways to improve quality in downsampling process, so I tried with this game. I extracted files from GD dump, hacked binaries, compressed AFS files, downsampled videos with the best quality possible (only some kb got free in the disc), dummied and burnt it with optimized original GD file order (I moved movies to inner part of disc). Note that the sound volume in videos are the same of original, other rips I've seen around weren't. Note that files of image were verified so I can guarantee no files got corrupted in the process. Enjoy the best release of the improved version of CODE Veronica.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used correct file order (same of GD), that was optimized later, what means faster loadings and less noise of Dreamcast reader.
+- Selfboot.
+- Dummied for 700mb CDs (although dummy file is very small).
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers. I haven't included the manual because I didn't find it on internet.

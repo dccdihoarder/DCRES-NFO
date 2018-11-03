@@ -1,0 +1,201 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2011 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+--------------------------------------------
+Rayman 2: The Great Escape *Repack* (NTSC-U)
+--------------------------------------------
+Ripped: Webbrowser; Italian and German opening audio track (read more below).
+Downsampled: All audio 22khz stereo -> 22khz mono.
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.exe" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+Here I am repacking this incredible game.
+
+Instead of describing the whole process here, I'm gonna ask you to read the old release readme
+first (end of this document) and I'll only describe the differences between the old release and
+this repack.
+
+First, overburn is not necessary anymore. I was able to make extra space mono-ing ADPCM tracks I
+missed before. Although there are only about five of them, and they're really hard to decode, I
+had to work on them because in this game every single megabyte counts. I wrote my own tools for
+that, and I'll share them in blog once I have time. Hum, I also made improvements in my DCZ
+packer, and I'll share in my blog as well.
+
+Some additional space could be obtained by re-linking redundant files.
+
+Because of all space I made, I also could maintain most of multi-language. There are five
+languages: English, Italian, Spanish, German and French. These languages are selected depending on
+the one you set in BIOS. Texts of all languages are there. The opening scene is dubbed, but
+because of space, Italian and German audio had to be ripped and re-linked to English ones. It
+means that everything will work in every language, except that if you select German or Italian
+you'll hear the opening in English. Not a big deal, right? Additionally, in the "Extra" folder of
+the pack you can listen to the ripped audio.
+
+Why did I chose German and Italian to rip? Well, Italian was chosen because it's the less spoken
+language of the five. Then had to choose between German and French, but as U***oft is French, I
+decided to maintain the original audio.
+
+File order has changed for better, although I can't make miracles.
+
+PAL users, when unpacking the image you'll have the option to patch the game so it will work in
+60hz on your consoles.
+
+That's all, enjoy another epic release from DCRES.
+
+
+Features of my release:
+- 22khz audio.
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff. It also contains ripped audio.
+- Release comes with covers.
+
+
+
+
+------------------------
+OLD RELEASE README FILE:
+------------------------
+
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+-----------------------------------
+Rayman 2: The Great Escape (NTSC-U)
+-----------------------------------
+Ripped: Internet feature; multi-language.
+Downsampled: All sounds I could found were monoized.
+Source: GD dump.
+
+=== ATTENTION: ===
+This release is for standard 80min CD-R but it needs around 10mb overburn (~1.5%). I tested burning
+this in two different brands of CD-R and in one CD-RW. Burning ended without errors and all data
+could be read with success in my PC DVD drive. Both CD-R booted and worked alright in my Dreamcast.
+The boot binary is in the "critical" zone (overburnt), so if your game boots nice it won't present
+any errors after since other files are in the "safe" zone.
+
+So, for burning, be sure to use a nice brand 80min CD-R. Getting a bigger CD is not necessary. Burn
+in a good speed (4x, 8x or 16x) and I doubt you'll have any problem.
+
+To burn this with DiscJuggler, you have to go in the "Advanced Tab" and mark "Overburn CD", else it
+will say media is too small and it will cancel recording. If you're using Alcohol 120%, you'll have
+to figure out how to record by yourself.
+==================
+
+Ok, you can ask, go ahead. Why the hell I made a overburn release of this game if there is a CCS
+release that fits on a 650mb CD-R? Well, the answer is simple. Music in this game is 22khz stereo.
+For some reason, developers used music in WAV format instead of a compacted format, that's why the
+original game is so big. In their release, CCS reduced quality of songs to 11khz mono, that's why
+their release got so small. No offense, they did a wonderful job figuring out pack format (read
+below), but music quality got really crap. My release has 22khz mono (much better), but of course
+there are some cons. Even deleting useless LOG files (that gave me around 10mb), game was still too
+big. Then I had to delete multi-language stuff and web browser. Even with that, space was too short,
+that's the reason it needed some overburn. That's the worse con. But believe me, music quality pays
+the effort, it's pratically the same of the original.
+
+Note that multi-language was removed, and game knows what language to use looking at BIOS
+configuration. So let your BIOS in English or impredictable results will happen.
+
+I never had so much trouble on a release, it cost me the whole day. Music are packaged in a
+strange DCZ format, that I've never seen before. Fortunately, I found a set of tools to uncompress
+and compress them back. Uncompressing was alright, then I converted the music and compressed back.
+When I went testing, music was not playing. After a lot of time I really found out the reason: the
+utility I was using to pack the DCZ was not working correctly. So what to do now? Can you guess?
+Yeah, figure out the DCZ format by myself and pack them back. After some hours, I finally
+understood the format (the cool part (<- sarcasm) is that there was no data about it on internet),
+and could figure out how to pack my music back properly. After some (more) hours, I finished
+programming my utility to pack DCZ, and I could finish the release.
+
+I haven't tested the whole game, but I played it a couple hours and I'm pretty sure I made a good
+job and it's working correctly until the end.
+
+I also customized file order because GD file order was not optimized, so except a better reading
+performance.
+
+Thanks to mr. ramencup for making his DCZ tools. Although packer didn't worked correctly, the
+unpacker was vital to the success of this project. Thanks go to CCS too, because of their release I
+could know that downsampling the music this way would really work, and that saved a lot of time.
+
+And last thing, although it's the american version (CCS's release was the european one), it works
+fine on PAL consoles.
+
+Enjoy this great game with the DCRES quality you already know.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- American version.
+- Music with better quality than CCS release.
+- Used custom file order. It means faster loadings and less Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

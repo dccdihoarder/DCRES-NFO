@@ -1,0 +1,28 @@
+Mortal Kombat Gold (PAL)
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Videos downsampled.
+Source: GD dump.
+
+Note that this release was made with the european version, but it works fine on american consoles. If you're in an american console, it will start in 60hz. If you are in an european one, it will start in 50hz. But you can change refresh rate in options screen anyway, so don't worry. It will work fine with VGA Box too. That's the first game I made CDDA work by myself, so I'm kind proud. It had around 500mb of videos, very bad encoded by the way (some with different bitrates, it looks like developers had a problem with space in disk and encoded some videos worse to make they fit). So I downsampled the videos to make them fit, and they got much better than I expected. Sound of the videos were monoized by the way, and the video was encoded using VBR, that makes them better than the other releases around. To reduce reader noise, that was going to be annoying because of CDDA tracks, I adopted a strategy. I made 3 "regions" on file order, first one has (of course) the CDDA tracks, second has game files and the last one has the videos. As game files are closer to CDDA tracks, the distance between them and CDDA tracks were reduced, what helps noise a lot. And the "lost" of the fastest region with videos were not so important because this game almost don't have loading times. Files were not ordered in GD, so this whole idea came from my head, be happy that I'm not a total dumb and can give you the best releases.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Videos with higher quality than other releases.
+- CDDA fully working.
+- Used custom file order. It helps loading times and Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.
