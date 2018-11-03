@@ -1,0 +1,70 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+------------------------
+Vanishing Point (NTSC-U)
+------------------------
+Ripped: Most CDDA edited.
+Downsampled: Videos.
+Source: GD dump.
+
+Echelon has ripped some tracks on their release to make this game fit on a CD-R. As usual, I took
+another approach.
+
+First step was making space. Each video had two copies, one with 25fps (for 50hz) and other with
+30fps (for 60hz). I've deleted the 25fps ones and linked them to the 30fps. I'm not sure if the
+videos will play correctly in 50hz (but I believe they will), but in 60hz they will work fine.
+Additionally, the remaining videos were downsampled using a high quality encoder and the result
+got much better than I expected, and I've gained a lot of space.
+
+To make more space, some identical files were re-linked to a single file.
+
+Even with all these things, there was no space available for the full CDDA, so they were edited
+and fade out was added as usual. Tracks were wisely edited, so it won't affect the gameplay.
+
+PAL users, apply the patch included to make the game boot in 60hz in PAL consoles.
+
+This is the first release I see around with the CDDA tracks, so I think you'll want it. Enjoy.
+
+Features of my release:
+- No CDDA tracks ripped.
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

@@ -1,0 +1,141 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+--------------------
+The Nomad Soul (PAL)
+--------------------
+Ripped: Multi-language; CDDA track (see notes); 2 videos (see notes).
+Downsampled: Audio stereo -> Mono; Videos.
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+After months held as an impossible project, I'm proud to present The Nomad Soul, the same game
+released in NTSC-U under the title of Omikron: The Nomad Soul. 
+
+== The "OMFG it's really important" information: ==
+
+Before start playing, select "Mono" as Sound Type in Options menu. If you don't do that,
+eventually the game will play the sound only on left speaker. It happens because of the stereo to
+mono conversion, the game tends to ignore the "Mono/Stereo" flag in audio header even if it's
+configured correctly.
+
+== The important information: ==
+
+Note that this PAL version will work fine in any region console.
+
+Before start talking about things that no one wants to know as usual, let me talk about the
+important part: the ripped stuff. The people that has been following DCRES project probably know
+that I avoid rips at all costs, but this game was big as hell and the rips HAD to be done. First,
+the CONCT320 video has been ripped. It's a big clip with a show of Bowie in its "Omikron's
+character form" or something. I have no idea when it plays, probably in some part of the game or
+as an extra feature. Second, the TRAILER video has been ripped. I also don't know when it plays
+(or even if it plays). It was actually an optional rip that I had to do to keep a decent quality
+on other videos. As usual, you won't lose any content because I INCLUDED BOTH OF THESE RIPPED
+VIDEOS IN THE EXTRAS FOLDER OF THE PACK. The video is untouched and the audio was encoded in a
+very high bitrate, so you'll get the same quality you'd get on the original GD. Again, it was
+ripped from the game disc, but it can be watched on your PC. No harm done.
+
+A CDDA track was ripped, there was no way to make it fit on the disc, even edited. As I haven't
+finished the game, I'm not sure when (or even if) it plays. So if you get a big moment of silence
+(like in credits screen or something) and you think "where the hell is the music?", that's the
+reason. Please give me some feedback about it if you finish the game. Like the videos, the ripped
+CDDA was also included the Extras folder of the pack as TRACK04.MP3, so you can listen to it on
+your PC. 
+
+The last rip is multi-language. It's not a big deal since most people can read English nowadays (I
+hope). The other language files have been linked to English, so everything should work fine
+regardless the language configured on your DC Bios. This solution worked fine as far as I could
+test it.
+
+Summarizing: the rips were made very wisely and you won't lose any content in-game. It's still the
+DCRES quality you're used to.
+
+PAL users, this game will show 50/60hz selector screen on your consoles.
+
+== The optional information: ==
+
+This game uses a not-standard ADPCM format for audio, and I couldn't find anything compatible with
+it. That was a huge problem. For my first tests of this game, I wrote a channel splitter for the
+audio. It means that it could transform stereo audio in mono copying a single channel. Of course
+this is not a reasonable solution for DCRES standards, but my goal at the time was testing the
+workability of mono audio and find a beta tester to find out when the videos (that I was already
+thinking about ripping) played. A couple of beta testers showed up and had access to this
+preliminary version, but for a reason or another they just disappeared at some point. I was let by
+myself as usual.
+
+Several months later I found a post at xentax forums about this weird ADPCM format, and on it a
+nice guy called Luigi posted a working decoder for it with source. With this source code in hands,
+and some hours to waste, I could wrote my own ADPCM encoder. Then I could decode the audio,
+transform it in real mono, and encode it back. That's what I've done. It was a lot of work, but
+I'm very proud of the results. Note that I'll post all my tools and information in my blog later,
+so check it out in case you're interested.
+
+The developers also had problems with GD space because this is a really huge game, so they had to
+use 22khz audio. So before you complain about audio quality, you should know that it's very
+comparable to the original audio. The other releases around don't even have audio, do they?
+
+Even making audio mono, the game was still too big to fit a CD-R. Fortunately there were ~60mb of
+redundant files that I could re-link and (finally) make it fit.
+
+An interesting characteric of this game is that it practically doesn't have loading times, most of
+things are loaded on-the-fly. It's a good thing for gamers, but a really hell for optimization.
+The good news is that I was able to optimize it a lot, it was a real miracle to find this nice
+file order. Note that the little pauses during streaming is normal and unavoidable, and it also
+happens with the original GD.
+
+I read on internet that this game has a lot of glitches (probably it was another rushed title), so
+don't blame me for them.
+
+Well, that's all. Enjoy this epic release by your DCRES friend. It feels good to do things that no
+one was able to do right in the past.
+
+
+Features of my release:
+- Full audio!
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains the extras files of the CD part of GD and the ripped stuff to
+be played on your PC.
+- Release comes with covers.

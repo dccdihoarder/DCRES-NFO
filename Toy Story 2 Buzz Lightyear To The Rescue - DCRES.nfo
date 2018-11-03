@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+--------------------------------------------------
+Toy Story 2: Buzz Lightyear To The Rescue (NTSC-U)
+--------------------------------------------------
+Ripped: Nothing.
+Downsampled: Videos.
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+Videos were downsampled with a very high VBR bitrate, so you won't be able to notice any
+difference. Audio is untouched.
+
+The greatest advantage of this release is performance. This game checks second session start all
+the time! When loading a level, it checks it about ten times. The result is that reader moves a
+lot, making loading times very annoying in "normal" releases like Kalisto's. I was able to
+eliminate this problem moving second session forward and using my common optimization techniques.
+The loading times are now much faster and quieter, I'm pretty sure they're better than GD. If you
+have ever tried another release, grab this one now.
+
+The downside about the optimization is that second session start is now very close to the border
+of the disc since second session has a bit more than 100mb. Depending on the calibration of the
+reader, some consoles may have trouble recognizing the disc. There is nothing I can (or want to)
+do about it without sacrificing the performance. Fortunately it should be a rare problem, so don't
+worry too much about it.
+
+PAL users, I wasn't able to test the behaviour of this game because it's not compatible with
+NullDC (at this date). Please give me some feedback about it, explaining what happened. The
+alternatives are: 1) It will run fine, boot in 60hz and/or show 50/60hz selector screen; 2) It
+will run fine, but it will only work in 50hz; 3) It won't run at all. If cases 2 or 3 happen, let
+me know and I'll release a patch for it ASAP. Remember: use composite cable. SCART is unsupported
+by DCRES project and the game will work with VGA-Box regardless the version of your console.
+
+Well, this was a nice game for Playstation, but not a so good one on Dreamcast because it lacks
+analog support and it has frequent slowdowns. But at least it's Toy Story, is there anyone who
+doesn't love it?
+
+DCRES - keeping the dream alive.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

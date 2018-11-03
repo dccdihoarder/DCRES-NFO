@@ -1,0 +1,83 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+--------------------
+Wacky Races (NTSC-U)
+--------------------
+Ripped: Nothing (read the notes below).
+Downsampled: Nothing.
+Source: Kalisto's release (oRARs) and PAL GD dump.
+
+==========
+ATTENTION:
+==========
+This NTSC-U version of the game has three languages: English, French and Spanish, but there is no
+language selector inside the game. The language is selected according to the configuration of your
+Dreamcast BIOS. There are two images, use the correct one or your game will be unplayable:
+
+* Wacky Races (French, Spanish) - DCRES.cdi -> If your BIOS is configured as French or Spanish.
+* Wacky Races (English) - DCRES.cdi -> If your BIOS is configured to any other language.
+
+=================================================
+You don't have to read anything below this point:
+=================================================
+
+I was having some trouble optimizing this game because a lot of data is streamed at the same time.
+Loading times has music playing, and in the game both music and voices are streamed on-the-fly. It
+was causing a lot of laser movement. Additionally, there were 3 voices packs for each language of
+around 70mb each. Well, I have arranged file order to make streaming as easy as possible. The
+result got very acceptable (mainly if you compare with original Kalisto's disc), but reader noise
+was still bothering. So I decided splitting the files, and the result got great. English disc got
+great. The other disc got very nice. If you compare them to the original Kalisto's release, you'll
+notice a great change. If you have ever played this game, you'll definitely want to grab this
+release now!
+
+I tried making a PAL release of this game, but it only boots on 50hz (it does let you change
+frequency to 60hz, but only on options menu) so I had to use NTSC-U. As I couldn't find the NTSC-U
+GD dump of this game, I used Kalisto's release.
+
+Oh, and this game will work nice on PAL consoles and will already boot in 60hz.
+
+Have fun with another quality release.
+
+Features of my release:
+- Not corrupted files at all, it was made with Kalisto's oRARs.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

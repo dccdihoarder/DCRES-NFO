@@ -1,0 +1,139 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+------------------------------------------
+Tony Hawk's Pro Skater 2 (NTSC-U) *Repack*
+------------------------------------------
+Ripped: Ambient sounds (see readme)
+Downsampled: Levels preview mini-videos; some companies videos.
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+I've attached the original readme below this one, you should give it a look. Just a correction, I
+said before that the ripped ambient sounds could not be noticed when you played with music, but
+the true is that they're not played at all if music is playing. The only ocasion when they play is
+if you set Music Volume to 0 in the options menu, and I doubt anyone would want that.
+
+This repack is pretty much the same of the last release, except that I've moved second session
+start closer to the border of the disc to correct reader's movement at some points. Additionally,
+I could make more space re-linking redundant files, and videos were re-encoded with a better
+encoder. Note that only logos and preview mini-videos were re-encoded, and it's almost impossible
+to notice any difference.
+
+If you are not familiar with the last release, you should grab this one right now. Intact videos
+and much much much better reading performance, some things that only DCRES can do for you.
+
+PAL users, this game will already boot in 60hz on your consoles.
+
+Have fun with another release.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.
+
+
+===================
+OLD RELEASE README:
+===================
+
+Tony Hawk's Pro Skater 2 (NTSC-U)
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check snesorama.us forums for more releases
+-------------------------------------------
+Ripped: Ambient sounds (can't be noticed, see readme).
+Downsampled: Some videos (only companies logos, other videos are intact).
+Source: GD dump.
+
+First of all, I'd like to say I'm very proud of the work I made in this game. All important videos
+(introduction, ending videos) are intact, so as sound of them and in-game music. How I did that?
+First, I examined the "preview" videos, you know, the little ones that plays when you select a
+level. Like the music videos in THPS 1, they're encoded them with the same quality of the main
+videos (bad work, bad work...), including the sound (yeah, I know they don't play any sound!). So
+I re-encoded then to a very little bitrate, and guess what, I played them side by side and
+couldn't notice any difference. Well, at this point I still needed some space, so I took a look at
+the music files. Each level has a ambient "music", and you can't hear them with music turned on.
+It's useless sounds like birds in the school, horns in NY, etc. I deleted them, and you wouldn't
+notice if I haven't tell you. It doesn't affect the gameplay at all. The only way to notice that
+is if you play without music, and I doubt anyone do that. At this point files almost could fit in
+a CD-R. To get the extra space I needed, I downsampled companies intro videos (I haven't touched
+the cool introduction video!), and you can't notice any difference (even if you could, who care
+about them?). As a bonus, I adjusted the volume of Activi... logo, because the guys that ported
+the game just used copy/paste in the intro of other game, and volume level was different of the
+other videos. Anyway, I got the space I needed. Again: all videos except companies logos and mini
+level preview are intact, it means full quality and stereo sound. Same about the sounds and music,
+nothing touched, full quality and stereo sound. Echelon got the space they needed downsampling the
+videos, but I found a better solution. Last thing was adjusting file order. Last thing but the
+most important, because files were a mess, all in alphabetic order (again, bad work!). You
+remember Echelon's release? Everything you select made your Dreamcast reader moves a lot making
+noises? Well, that's solved. I optimized file order as I did in THPS 1, and results got very
+alike. Your reader almost don't move during reading! It means faster loadings and MUCH LESS noise.
+A lot less. After making that I hacked binary and burnt the disc with a little dummy file. If you
+like this game and have played other releases, I really recommend that you try this one, it's much
+better for sure.
+
+Don't forget that the Dreamcast version is the better version ever made of this game, because
+Playstation version (ignoring its bad graphics) has a lot of "fog" (your view distance is very
+small) and choppy videos (15fps?). Same happens with PC version, that is a port of Playstation
+game. It's the same crap but in higher resolution. In Dreamcast you have a very nice view distance
+and 30fps videos. Enjoy!
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used a much improved file order, loadings are much faster, Dreamcast reader makes much less
+noise.
+- Selfboot.
+- Dummied for 700mb CDs.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

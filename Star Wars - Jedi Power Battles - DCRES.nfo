@@ -1,0 +1,34 @@
+Star Wars: Jedi Power Battles [NTSC-U]
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Most videos downsampled (read below).
+Source: GD dump.
+
+All videos (except intro one) were encoded on a very high bitrate (7200kbps for video). Even moving them to the "faster" area of CD, reader couldn't read data fast enough and videos presented random freezes. To correct that, these videos had to be downsampled. Note that the downsampled videos still have a very high bitrate (average 5200kbps), were encoded using VBR and have untouched audio, so quality is very close to the original.
+
+Additionally, I optimized file order, what increases performance. Files were in alphabetic order in original GD.
+
+Hum, and there were tons of files that developers forgot on disc (windows tools, bat files, text files, etc). I deleted them.
+
+Have fun with another high quality release.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Videos with higher quality than other releases.
+- Dummied for 700mb. It means faster loadings.
+- Used custom file order. It helps loading times and Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

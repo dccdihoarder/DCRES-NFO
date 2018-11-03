@@ -1,0 +1,26 @@
+Tony Hawk's Pro Skater (NTSC-U)
+-------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check snesorama.us forums for more releases
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: music videos, you can't see any difference (read text below). 
+Source: GD dump.
+
+I got the GD dump of this game and it was the first data multi track game I got in hands. After days of some research I could finally extract the files. The game was originally around 950mb, so I thought I'd have to downsample a lot of important stuff, but I got a surprise. Well, you know some levels have big screens where a video plays. That's how music works. Each song is in a .sfd movie, and the game plays this video each time music is playing. If the level has one of those big screens, video appears on them, else you only listen to music. The funniest thing about these videos it that all videos in game are encoded in the same bitrate. So, videos like characters ending are 320x240 and play nice with that bitrate. In other hand, the music videos are 96x64 and are encoded in the same bitrate, what is a waste of space. It makes the little videos use nothing less than 600mb of the 950mb in GD. Of course I decided to take space from there. For that, I extracted the audio, processed the video separately for a lower bitrate (making all math necessary) and multiplexed video back. Note that audio was not reprocessed, so it had no quality loss. I used the maximum bitrate for those videos for a CD disc (precision got so cool that only 8mb got free in CD). Note that bitrate is still much higher than enough for tiny 96x64 videos, so if you compare my downsampled music videos with the original videos you won't notice any difference. Note too that the "important" videos like character endings are intact, they weren't changed. Summarizing, only the music videos were downsampled and you can't notice any difference, so it's the same that say that nothing was downsampled in this game. Well, anyway, I got the space I needed. Then I put the extra files in "EXTRA" folder on dummy area, completed the disc with a tiny dummy file and hacked the boot binary. Everything was ready. Then I was going to see original file order in GD and guess what, it had no special order! Except for two files, the GD was organized in alphabetic order. It means that the game files were "randomly" separated by the 860mb (in original disc) of videos. In GD it isn't that bad because it has higher density, hence seek time for files are short. In CD however it's catastrophic, because Dreamcast has to keep moving the reader (seeking "distant" files) a lot when loading anything. So I organized things. Well, consider inner part of disc as first area. In first area I put dummy files. Second, extra folder. Third, characters ending videos (they play rarely, so we don't need to worry about seek time).  Note that every area until here was organized in alphabetic order, the same of GD. Fourth, intro videos files, in the order they play in opening (or almost). Fifth, music videos (they play every level so it isn't a good idea to let them far from game files). Sixth, the game files. The game files were the same of GD (alphabetic), except 1st_read.bin that I moved to end of disc as every game I had seen until then. Note too that game files are in the area where Dreamcast reads faster. And it was done. So I burnt it, tested and loved what I've seen. Game loadings are super fast, Dreamcast almost doesn't move the reader (helps loading and in reader's noise), and there is absolutely no quality loss in the game. It got really great, and I can bet that performance is better than the original GD. Well, at least it got much faster than Kalisto's release. Have fun with this game!
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used optimized file order, what made loading times much faster.
+- Selfboot.
+- Dummied for 700mb CDs. Dummy file is very small though, so it almost doesn't help.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "EXTRA" folder in CD contain the only useless no 0 bytes file from CD part of GD, warning audio track and 0GDTEX (that picture that appears in audio player with a original GD) converted to bitmap.
+- Release comes with covers. I haven't included the manual because I haven't found it on internet.
+
+My releases are for Dreamcast console. If you use emulator, this release will work, but it will work exactly like any other release (except that you have guarantee for not corrupted files and it's selfboot). If you play in emulator, I recommend you to try GD dumps instead. If you play in console, you'll notice a nice improvement in this release compared to others.

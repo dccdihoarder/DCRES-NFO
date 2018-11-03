@@ -1,0 +1,70 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+-----------------------------------------------
+The Last Blade 2: Heart Of The Samurai (NTSC-U)
+-----------------------------------------------
+Ripped: Nothing.
+Downsampled: Some voices 44khz -> 32khz; music and background sounds 44khz stereo -> 22khz stereo.
+Source: GD dump and Echelon's release.
+
+This game had a protection where it checked some useless big files (fake videos). If files are not
+there, then the game refused to work. The files of course didn't fit on a CD-R, but Echelon hacked
+this game to accept small files, making a wonderful job as usual, so I used their binary.
+
+Echelon's release has lag on the sound because this game stream audio on-the-fly, and in CD-R
+reading speed is not fast enough. I used the same technique I have used in Fatal Fury MOTW:
+downsampled audio and arranged audio files in a correct position, so everything is working great
+now.
+
+You won't be able to notice any difference in the downsampled voices. Additionally, as music was
+with a very bad quality on its original form (SNK just converted the Neo Geo music...), almost
+no difference can be noticed in the audio too.
+
+Oh, and I tried patching VGA-Box, but it won't work at all. You'll have to play this one with
+your regular compositive video cable.
+
+Enjoy another historical release from DCRES.
+
+Features of my release:
+- No more sound lag!
+- Not corrupted files at all, it was made with GD dump files.
+- Dummied for 700mb CDs. It means faster loading times.
+- Used custom file order. It means faster loadings and less Dreamcast reader noise.
+- Selfboot.
+
+About the game:
+- It does NOT have VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

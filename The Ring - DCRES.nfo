@@ -1,0 +1,70 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+---------------------------------
+The Ring: Terror's Realm (NTSC-U)
+---------------------------------
+Ripped: Nothing.
+Downsampled: Videos (almost no quality loss, read below).
+Source: GD dump and Echelon's release (oRARs).
+
+Videos were encoded in a very high bitrate, so I have re-encoded them in a lower bitrate (although
+a still high bitrate) in VBR so I could get enough space. There is no significant difference
+between original and re-encoded videos. Additionally, audio of videos got untouched.
+
+This game was refusing to work with the common hacking techniques, probably because of some kind of
+protection, so I got Echelon's main binary, removed their intro and used it instead. As always,
+these guys made a great job.
+
+File order was optimized, but I still was hearing too much reader's movement. Then I found out that
+like other games, this one keeps checking second session start for some reason. I tried splitting
+files in both sessions moving second session ahead in the disc and things got much better. Loading
+times must be better now.
+
+Oh, about VGA-Box, the support was originally turned off. I tried enabling it and the game booted.
+However, there was no image output, so unfortunately you can't play this one using VGA-Box.
+
+Enjoy this strange but decent game.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files and Echelon's oRARs.
+- Dummied for 700mb CDs, it means faster loading times.
+- Used custom optimized file order. It means faster loadings and less Dreamcast reader noise.
+- Used another optimization technique. It also helps loading times and reader's movement.
+- Selfboot.
+
+About the game:
+- It does NOT have VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

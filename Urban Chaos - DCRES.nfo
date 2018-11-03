@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+--------------------
+Urban Chaos (NTSC-U)
+--------------------
+Ripped: French language files (read more below).
+Downsampled: Nothing.
+Source: PAL GD dump and Echelon's release (oRARs).
+
+This game gave me more work than I expected.
+
+Echelon has downsampled sounds and videos. I used PAL GD dump to restore the original media. Note
+that the files were restored with a lot of attention, so no problems should come from this. Of
+course I had no space, so I've ripped the files related to french language (more about it later)
+to make the amount I needed.
+
+The frame rate of videos and their quality sucks, but they're untouched so they already sucked on
+the original GD. NTSC-U videos also had 25fps, so the quality issues does not come from the PAL
+version.
+
+Re-linking redundant files was a pain in the ass, I had to make it manually because of the
+limitation of Darkfalz's utility (it finds the files by its name, and in this game you have a lot
+of different files with the same name), and my automatically ISO compressor tool is not ready yet.
+It might get ready some day...
+
+This game has an extra region protection code and Echelon has released a patch to make their
+version work on not NTSC-U consoles. Their fix is already made in this release, so it should boot
+and work fine in any console in 60hz.
+
+Well, about multi-language. The game will show a language menu selector in the beggining, it has
+English and French. English is working fine (at least as far as I could test). French feature is
+EXPERIMENTAL. I have re-linked the deleted French files to English. So if you select French it
+should show the french texts with the english videos and voices. But again, it's experimental, I
+haven't tested it. It may work fine until the end, it may work fine until certain part of the game
+and then freeze or it may not work at all. No matter what happens if you select French, I can't
+help you.
+
+I've seen a lot of people complaining about the loading times in this game, my optimizations
+should help it significantly.
+
+Enjoy another release, and Kudos to Echelon for their first release.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

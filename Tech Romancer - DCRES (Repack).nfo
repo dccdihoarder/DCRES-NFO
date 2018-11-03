@@ -1,0 +1,45 @@
+Tech Romancer [NTSC-U] *Repack*
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check for more releases at these forums:
+snesorama.us (all releases)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+-------------------------------------------
+Ripped: Nothing (read below).
+Downsampled: Videos (read below).
+Source: GD dump and Kalisto's release files.
+
+There was a big Karaoke video in the GD, but the american version don't play it for a obvious reason: everything is in japanese. Well, the problem is that I didn't know that when releasing the game for the first time, so I included that on CD and all the videos had to be downsampled a lot to fit the CD. In this repack I removed the karaoke video file, so the rest of videos almost fit the CD without downsampling. Well, I re-encoded them using VBR. As VBR gives higher quality for the same size, I could re-encode the videos at the same bitrate it was originally and make them fit on CD. Of course there was a little quality loss because of re-encoding process, but the quality is almost the same of the original videos. And I let the original audio of videos untouched. Result: videos of this repack have a much better quality than my first release.
+
+Hey, and you got curious about the not-shown Karaoke video? I included it in "Extras" folder with the name KARAOKE.MPG. Video is untouched (I just de-multiplexed it from SFD and then multiplexed it back) and audio was encoded with a very high quality so you can have the same experience that japan players could have.
+
+===========================================
+BELOW MY ORIGINAL README FILE:
+===========================================
+
+Tech Romancer (NTSC-U)
+------------------------------------------
+Dreamcast Resurrection - 2009 (since 2008)
+
+Check snesorama.us forums for more releases
+-------------------------------------------
+Ripped: Nothing.
+Downsampled: Videos.
+Source: GD dump and Kalisto's release files.
+
+All the files of this game, except videos, are in a no standard format. This game is huge and Kalisto made a wonderful job (and what they did that wasn't?) downsampling this no standard audio format, so I just kept it this way. Then I got GD files, downsampled videos with a higher quality (because there was some space free in disc) and they got much better than Kalisto's. So I dummied, optimized original file order and burned it in selfboot format (of course). Have fun.
+
+Features of my release:
+- Not corrupted files at all, it was made with Kalisto's release files and GD dump.
+- Used correct file order (same of GD), that was optimized later, what means faster loadings and less noise of Dreamcast reader.
+- Selfboot.
+- Dummied for 700mb CDs (although dummy file is very small).
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.

@@ -1,0 +1,98 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2010 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+-------------------------------
+Sega Sports Tennis 2K2 (NTSC-U)
+-------------------------------
+Ripped: Nothing (see notes).
+Downsampled: Music 44khz -> 32khz; one file 44khz -> ~27khz (see notes).
+Source: GD dump.
+
+=== ATTENTION: ===
+You need to execute the "unpack.bat" before burning, it will unpack the .ecm file and create your
+.cdi image.
+
+If you need to apply any patch, do it in the unpacked .cdi file, not in the .ecm file.
+==================
+
+I'm very proud to bring you Tennis 2K2.
+
+Besides a standard protection, this game had an extra check of the size of (almost) every file in
+the disc. It also had a big dummy file that was checked as well, so it would avoid people from
+making the game fit on a CD. If this check fail, the game will boot normally, will let you play a
+match for ~30 seconds and then it will take you back to the menu. Well, I could break this
+protection changing the size of the modified files in the ISO header, so now the game thinks the
+files are alright, when they actually aren't. AFS header will keep the reader inside the bounds,
+so everything is working great. Using this technique, I could modify and rip files as I wish, I
+just had to change the information in the ISO later for the protection check. This is actually the
+first protection I broke by myself, so I'm very proud of it.
+
+Oh, and because of the changings in the image that I had to do, you might having trouble
+extracting some files of the disc on your computer, so don't try to remaster this disc.
+
+Optimizating this game was hard. About half of reading is made with music, so game must read two
+files at the same time. I had to make five tries until I find the "ideal" file order. It wasn't an
+easy task, because original file order didn't help very much. Additionally, music was downsampled
+to 32khz. Look, both reading and seek time are worse in CDs when you compare to GDs, so this was
+an important optimization decision. If game keeps smaller, seek time decreases, and if bit rate in
+the music is lower, the game streams the other data faster. If you don't agree with my judgement,
+get Echelon's release and be happy. Just know that I thought and tested it a lot before taking
+this decision. The lost in quality is very small, and it can't be noticed unless compared the
+original song.
+
+I also have faced a little glitch that happened in the main menu. After the "Press Start" screen,
+the song freezes for a while (keeps repeating the same short part). It happens because game
+insists in loading some other files before stream music again. Probably in the GD this process is
+fast enough, but not in CD. File order was adjusted to help the process, and the main menu song
+was downsampled to ~27khz. It solved the problem. Eventually it may happen if you select options
+too fast, but it should be rare enough.
+
+Some not used files were ripped, like multi-language that is not avaliable at the NTSC-U version.
+
+PAL users, apply the included patch before burning to make the game work in 60hz on your consoles,
+else it will boot in 50hz.
+
+You should burn this game now, it's a great game, even if you don't like tennis. Have fun.
+
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with manual and covers.

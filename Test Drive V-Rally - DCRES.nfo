@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------------------------
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRRRRRRRRRRR                                        
+D::::::::::::DDD          CCC::::::::::::CR::::::::::::::::R                                       
+D:::::::::::::::DD      CC:::::::::::::::CR::::::RRRRRR:::::R                                      
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::R                                     
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::R    eeeeeeeeeeee        ssssssssss   
+  D:::::D     D:::::DC:::::C                R::::R     R:::::R  ee::::::::::::ee    ss::::::::::s  
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R  e::::::eeeee:::::eess:::::::::::::s 
+  D:::::D     D:::::DC:::::C                R:::::::::::::RR  e::::::e     e:::::es::::::ssss:::::s
+  D:::::D     D:::::DC:::::C                R::::RRRRRR:::::R e:::::::eeeee::::::e s:::::s  ssssss 
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re:::::::::::::::::e    s::::::s      
+  D:::::D     D:::::DC:::::C                R::::R     R:::::Re::::::eeeeeeeeeee        s::::::s   
+  D:::::D    D:::::D  C:::::C       CCCCCC  R::::R     R:::::Re:::::::e           ssssss   s:::::s 
+DDD:::::DDDDD:::::D    C:::::CCCCCCCC::::CRR:::::R     R:::::Re::::::::e          s:::::ssss::::::s
+D:::::::::::::::DD      CC:::::::::::::::CR::::::R     R:::::R e::::::::eeeeeeee  s::::::::::::::s 
+D::::::::::::DDD          CCC::::::::::::CR::::::R     R:::::R  ee:::::::::::::e   s:::::::::::ss  
+DDDDDDDDDDDDD                CCCCCCCCCCCCCRRRRRRRR     RRRRRRR    eeeeeeeeeeeeee    sssssssssss    
+---------------------------------------------------------------------------------------------------
+===================================================================================================
+                           Dreamcast Resurrection - 2009 (since 2008)
+===================================================================================================
+Check for more releases at these forums (search for user "TuxTheWise"):
+snesorama.us (all releases, see my signature)
+segahub.org (recent releases)
+dreamcast-talk.com (recent releases)
+===================================================================================================
+NOTE: I've seen some people uploading my releases in other servers. I recommend you always getting
+my releases of my uploads in the forums above, because sometimes I release fixes or re-launch some
+games that have problems. If you get my uploads you'll be sure of having the latest releases.
+Additionally, you'll get the original package, not images made from discs, so you'll be sure that
+nothing is corrupted.
+===================================================================================================
+---------------------------
+Test Drive V-Rally (NTSC-U)
+---------------------------
+Ripped: Most CDDA edited.
+Downsampled: Videos.
+Source: GD dump and Echelon's release (oRARs)
+
+This game was launched in Europe under the name "V-Rally 2: Expert Edition".
+
+Most CDDA had to be edited to make the game fit on a CD-R and the videos had to be downsampled.
+However, I used another MPEG encoder that works much better with dark scenes than my old one, so I
+doubt you'll notice any difference. Fade-out has been added in the CDDA, so it won't be a problem
+too.
+
+I tried to release the PAL version of this game, but even with the 50/60hz selector in the options
+menu, it presented a lot of graphics glitches when booting in 60hz. So I had to use the NTSC-U
+version. Note that it also have 3 languages (English, French and German) that can be selected in
+the options menu.
+
+Usual CDDA hack was not working, and the tracks were not playing at all. Echelon made the same
+mistake at their first release, but after they have released a patch to correct it, making a great
+job as usual. I've hacked my binary the same way they did, so the credit for CDDA working goes all
+to the Echelon dudes.
+
+PAL users, the game will already boot in 60hz in your console.
+
+Note that "Music volume" must be increased in the options menu, otherwise you won't be able to
+hear the CDDA tracks. It probably happens on the original GD too, so don't blame me for that.
+
+Oh, and this is one of the few games with 16/9 widescren support. Additionally, this game has
+great graphics and run on very solid 60fps. So use a VGA-Box to plug your console on a high
+definition TV and be surprised with what your Dreamcast can do.
+
+Have fun.
+
+Features of my release:
+- Not corrupted files at all, it was made with GD dump files and Echelon's oRARs.
+- Used custom DCRES optimization techniques. It means faster loadings and less Dreamcast reader
+noise.
+- Selfboot.
+
+About the game:
+- It has VGA Box support.
+
+Other comments:
+- "Extras" folder in the pack contains some useless stuff.
+- Release comes with covers.
